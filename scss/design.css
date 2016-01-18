@@ -1,0 +1,155 @@
+/* Importing Google Font */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+/* Declaring Variables */
+/* Font Weight Type */
+/* Color Declarations */
+.font-property {
+  font-family: Roboto;
+  font-weight: 300; }
+
+body {
+  background: url("../back.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Roboto;
+  font-weight: 300;
+  height: 100vh;
+  padding-top: 5%; }
+
+.card {
+  height: 600px;
+  box-shadow: 2px 3px 10px rbga(0, 0, 0, 0.3); }
+
+.sidebar {
+  background: linear-gradient(#5650AC, #406BB5);
+  height: 100%;
+  padding-top: 20px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px; }
+
+.content {
+  height: 100%;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #F2F4F6; }
+
+/* Text Properties CSS */
+.logo-title {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #95A5A6;
+  padding: 10px 20px; }
+
+#username {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 15px; }
+
+.result-tab {
+  background: #F2F4F6;
+  padding: 10px 30px; }
+  .result-tab .result-text {
+    color: #7F8C8D;
+    font-size: 16px;
+    font-weight: 300; }
+
+#results {
+  color: #5650AC; }
+
+.img-user {
+  width: 110px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 2px solid #8C87D6; }
+
+.divider {
+  border-color: rgba(255, 255, 255, 0.2); }
+
+#user-info {
+  padding: 0; }
+  #user-info li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 4px;
+    color: #BBB8F5;
+    font-size: 14px;
+    font-weight: 300; }
+    #user-info li span {
+      color: #FFF; }
+
+.side-card {
+  height: 45px;
+  width: 45px !important;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 6px;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer; }
+  .side-card span {
+    color: #BBB8F5;
+    padding-top: 12px;
+    margin-left: -3px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 18px; }
+
+#active,
+.side-card:hover {
+  border-color: #FFF;
+  background: #5567AD; }
+  #active span,
+  .side-card:hover span {
+    color: #FFF; }
+
+.side-card p {
+  color: #BBB8F5; }
+
+#save-search {
+  color: #95A5A6;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer; }
+
+#save-search:hover {
+  -webkit-transform: rotate(360deg);
+  color: #5650AC; }
+
+.form-control {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  padding: 20px 25px;
+  outline: none;
+  box-shadow: 0px 0px 0px transparent; }
+
+::-webkit-input-placeholder {
+  color: #7F8C8D; }
+
+form .material-icons {
+  font-size: 18px;
+  color: #7F8C8D;
+  position: absolute;
+  top: 20px; }
+
+.line {
+  margin-top: 6px;
+  border-color: #DDD; }
+
+/*# sourceMappingURL=design.css.map */
