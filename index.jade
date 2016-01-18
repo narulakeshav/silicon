@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+        // Favicon and Title
+        title#page-title Silicon - @NarulaKeshav
+        link(rel='shortcut icon', href='favicon.png')
+
+        // META TAGS
+        meta(property='og:title', content='Quill')
+        meta(property='og:description', content='Be creative, be innovative.')
+        meta(property='og:site_name', content='NarulaKeshav')
+        meta(property='og:url', content='http://narulakeshav.com/app/quill')
+        meta(property='og:image', content='#')
+
+        // CSS CDNs
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+        link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css')
+
+        // MY CSS FILE
+        link(rel='stylesheet', href='scss/design.css')
+    body
+        div.col-md-12
+            div.col-md-10.col-md-offset-1
+                div.row.card
+                    div.col-md-1.sidebar
+                        img.img-responsive.img-user.img-circle(src="user.jpg")
+                        hr.divider
+                        div.col-md-6.side-card#active
+                            span.material-icons home
+                        div.col-md-6.side-card
+                            span.material-icons explore
+                        div.col-md-6.side-card
+                            span.material-icons favorite
+                        div.col-md-6.side-card
+                            span.material-icons account_box
+                    div.col-md-11.content
+                        div.row.result-tab
+                            form
+                                span.material-icons search
+                                input.form-control(id="input", placeholder="search for pictures, #hashtags, or users")
+                            hr.line
+                        
+
+        // JAVASCRIPT CDNs
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js')
+
+        // MY JAVSCRIPT FILE
+        script(src='js/notes.js')
