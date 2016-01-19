@@ -5,7 +5,7 @@ html
 
         // Favicon and Title
         title#page-title Silicon - @NarulaKeshav
-        link(rel='shortcut icon', href='favicon.png')
+        link(rel='shortcut icon', href='nyt.png')
 
         // META TAGS
         meta(property='og:title', content='Quill')
@@ -26,26 +26,38 @@ html
         link(rel='stylesheet', href='scss/design.css')
     body
         div.col-md-12
-            div.col-md-10.col-md-offset-1
-                div.row.card
-                    div.col-md-1.sidebar
-                        img.img-responsive.img-user.img-circle(src="user.jpg")
-                        hr.divider
-                        div.col-md-6.side-card#active
-                            span.material-icons home
-                        div.col-md-6.side-card
-                            span.material-icons explore
-                        div.col-md-6.side-card
-                            span.material-icons favorite
-                        div.col-md-6.side-card
-                            span.material-icons account_box
-                    div.col-md-11.content
-                        div.row.result-tab
-                            form
-                                span.material-icons search
-                                input.form-control(id="input", placeholder="search for pictures, #hashtags, or users")
-                            hr.line
-                        
+            div.row
+                div.col-md-1.sidebar
+                    img.img-responsive.nyt-logo.img-circle(src="nyt.png")
+                    hr
+                    a.btn.options.hot.select
+                        span.material-icons whatshot
+                    hr
+                    a.btn.options#tech
+                        span.material-icons code
+                    a.btn.options#business
+                        span.material-icons business
+                    a.btn.options#politics
+                        span.material-icons account_balance
+                    a.btn.options#world
+                        span.material-icons public
+                    a.btn.options#sports
+                        span.material-icons directions_bike
+                div.col-md-11.content
+                     div.col-md-12.result-tab
+                        form
+                            span.material-icons search
+                            input.form-control(id="input", placeholder="Search for articles, headlines, etc.")
+                        hr.line
+                        p#viewing Viewing Articles from: 
+                            span#viewing-type Trending
+                        div.row#posts
+                            div.col-md-4
+                                div.col-md-12.card
+                                    a(href="#")
+                                        img.img-responsive(src="https://goo.gl/v3qqmJ")
+                                        p#card-title When a Unicorn Start-Up Stumbles, Its Employees Get Hurt
+                                        p#post-by By Joe Clarkson
 
         // JAVASCRIPT CDNs
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
@@ -53,4 +65,4 @@ html
         script(src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js')
 
         // MY JAVSCRIPT FILE
-        script(src='js/notes.js')
+        script(src='js/feed.js')
