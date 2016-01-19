@@ -1,30 +1,24 @@
 /* Importing Google Font */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+/* Color Declarations */
+$white: #FFF;
+$gray: #7F8C8D;
+$primary: #444;
 
 /* Declaring Variables */
 $content-background: #F2F4F6;
-$background: url("../background_blur.jpg");
-$font: Roboto;
-$logo-font: Oswald;
-$sidebar-background: linear-gradient(#5650AC, #406BB5);
+$sidebar-background: $white;
 $transparent: transparent;
-$sidebox: rgba(0,0,0,0.1);
-$hr: rgba(255,255,255,0.2);
-/* Font Weight Type */
+
+/* Font Properties */
+$font: Roboto;
 $thin: 100;
 $light: 300;
 $normal: 400;
 $bold: 500;
 
-/* Color Declarations */
-$white: #FFF;
-$light-gray: #95A5A6;
-$gray: #7F8C8D;
-$primary: #5650AC;
-$danger: #E74C3C;
-$black: #444;
-
+/* Mixins */
 @mixin border-radius ($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
@@ -43,140 +37,125 @@ $black: #444;
     font-weight: $light;
 }
 
+/* General CSS Properties */
 body {
-    background: $background;
+    background: $content-background;
     background-attachment: fixed;
     background-size: cover;
     font-family: $font;
     font-weight: $light;
     height: 100vh;
-    padding-top: 5%;
 }
-.card {
-    height: 600px;
-    box-shadow: 2px 3px 10px rbga(0,0,0,0.3);
+a:focus,
+a:hover {
+    text-decoration: none;
 }
+
+/* Div Tags CSS */
 .sidebar {
     background: $sidebar-background;
-    height: 100%;
+    height: 100vh;
     padding-top: 20px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-right: 1px solid #EEE;
+    width: 80px;
 }
 .content {
     height: 100%;
     overflow: hidden;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
     background: $content-background;
-}
-
-/* Text Properties CSS */
-.logo-title {
-    font-family: $logo-font;
-    text-transform: uppercase;
-    font-size: 22px;
-    color: $light-gray;
-    padding: 10px 20px;
-}
-#username {
-    color: $white;
-    font-size: 16px;
-    font-weight: $light;
-    text-align: center;
-    padding-top: 15px;
 }
 .result-tab {
     background: $content-background;
     padding: 10px 30px;
-    .result-text {
-        color: $gray;
-        font-size: 16px;
-        font-weight: $light;
-    }
 }
-#results {
-    color: $primary;
+.card {
+    background: $white;
+    padding: 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #DDD;
 }
-.img-user {
-    width: 110px;
+
+/* Image Tags CSS */
+.nyt-logo {
+    width: 80px;
     height: auto;
     margin: 0 auto;
     margin-top: 15px;
-    border: 2px solid #8C87D6;
 }
-.divider {
-    border-color: $hr;
-}
-#user-info {
-    li {
-        display: inline;
-        list-style-type: none;
-        margin-right: 4px;
-        color: #BBB8F5;
-        font-size: 14px;
-        font-weight: $light;
-        span {
-            color: $white;
-        }
-    }
-    padding: 0;
-}
-.side-card {
+
+/* Button Tags CSS */
+.options,
+.options:focus {
     height: 45px;
     width: 45px !important;
     @include border-radius(100%);
-    background: $sidebox;
-    margin: 6px;
+    background: rgba(0,0,0,0.1);
+    margin: 6px 2px;
     border: 1px solid $transparent;
     @include transition(0.5s);
     cursor: pointer;
     span {
-        color: #BBB8F5;
-        padding-top: 12px;
-        margin-left: -3px;
+        color: #666;
+        padding-top: 8px;
         @include transition(0.5s);
-        font-size: 18px;
+        font-size: 15px;
     }
 }
-#active,
-.side-card:hover {
-    border-color: $white;
-    background: #5567AD;
+.select,
+.options:hover {
+    border-color: #444;
+    background: #444;
     span {
         color: $white;
     }
 }
-.side-card p {
-    color: #BBB8F5;
-}
-#save-search {
-    color: $light-gray;
-    @include transition(0.5s);
-    cursor: pointer;
-}
-#save-search:hover {
-    -webkit-transform: rotate(360deg);
-    color: $primary;
-}
-.form-control {
-    background: $transparent;
-    border: none;
+
+/* Text Properties CSS */
+#card-title {
+    font-weight: $bold;
     font-size: 16px;
-    padding: 20px 25px;
-    outline: none;
-    box-shadow: 0px 0px 0px transparent;
+    padding: 10px 0px 0px 15px;
+}
+#post-by {
+    color: $gray;
+    padding: 0px 15px;
+}
+#viewing {
+    color: $gray;
+    text-transform: uppercase;
+    font-weight: $normal;
+    font-size: 13px;
+    padding: 15px 5px 10px 5px;
+    #viewing-type {
+        color: #444;
+    }
+}
+
+/* Form CSS */
+.form-control,
+.form-control:focus {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  padding: 25px 25px;
+  outline: none;
+  box-shadow: none;
 }
 ::-webkit-input-placeholder {
-    color: $gray;
+  color: #7F8C8D; 
 }
-form .material-icons {
+form {
+  .material-icons {
     font-size: 18px;
-    color: $gray;
+    color: #7F8C8D;
     position: absolute;
-    top: 20px;
+    top: 25px;
+  } 
 }
+
+/* Span and Extra CSS */
 .line {
-    margin-top: 6px;
-    border-color: #DDD;
+  margin-top: 6px;
+  border-color: #DDD; 
 }
