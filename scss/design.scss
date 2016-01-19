@@ -4,11 +4,11 @@
 /* Color Declarations */
 $white: #FFF;
 $gray: #7F8C8D;
-$primary: #444;
+$primary: #333;
 
 /* Declaring Variables */
 $content-background: #F2F4F6;
-$sidebar-background: $white;
+$sidebar-background: $primary;
 $transparent: transparent;
 
 /* Font Properties */
@@ -90,13 +90,13 @@ a:hover {
     height: 45px;
     width: 45px !important;
     @include border-radius(100%);
-    background: rgba(0,0,0,0.1);
-    margin: 6px 2px;
+    background: #444;
     border: 1px solid $transparent;
+    margin: 6px 2px;
     @include transition(0.5s);
     cursor: pointer;
     span {
-        color: #666;
+        color: #AAA;
         padding-top: 8px;
         @include transition(0.5s);
         font-size: 15px;
@@ -104,10 +104,16 @@ a:hover {
 }
 .select,
 .options:hover {
-    border-color: #444;
-    background: #444;
+    border: 1px solid $white;
+    background: $primary;
     span {
         color: $white;
+    }
+}
+.hot, .top {
+    background: $white;
+    span {
+        color: $primary;
     }
 }
 
