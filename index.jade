@@ -32,11 +32,11 @@ html
                     hr
                     a.btn.options.hot.select
                         span.material-icons whatshot
-                    a.btn.options.top.select
+                    a.btn.options
                         span.material-icons equalizer
                     hr
                     a.btn.options#tech
-                        span.material-icons code
+                        span.material-icons cast
                     a.btn.options#business
                         span.material-icons business
                     a.btn.options#politics
@@ -46,20 +46,23 @@ html
                     a.btn.options#sports
                         span.material-icons directions_bike
                 div.col-md-11.content
-                     div.col-md-12.result-tab
+                    div.col-md-12.result-tab
                         form
                             span.material-icons search
                             input.form-control(id="input", placeholder="Search for articles, headlines, etc.")
                         hr.line
-                        p#viewing Viewing Articles from: 
-                            span#viewing-type Trending
-                        div.row#posts
+                        p#viewing Viewing: 
+                            span#result-num 847 Results
+                    div.col-md-12#feed
                             div.col-md-4
                                 div.col-md-12.card
                                     a(href="#")
-                                        img.img-responsive(src="https://goo.gl/v3qqmJ")
+                                        img.img-responsive#img-card(src="img-card.jpg")
                                         p#card-title When a Unicorn Start-Up Stumbles, Its Employees Get Hurt
-                                        p#post-by By Joe Clarkson
+                                        p#post-by By JOE CLARKSON
+        button.btn.btn-kn
+            span.fa.fa-clone
+                            
 
         // JAVASCRIPT CDNs
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
