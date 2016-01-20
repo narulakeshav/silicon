@@ -79,6 +79,10 @@ a:hover {
     padding-right: 10px;
     margin-bottom: 20px;
     border: 1px solid #E1E6EB;
+    @inlcude transition(0.5s);
+}
+.card:hover {
+    border-color: #CED5DB;
 }
 
 /* Image Tags CSS */
@@ -132,7 +136,8 @@ img {
         color: $white;
     }
 }
-.hot, .top {
+#hot, 
+#top {
     background: $white;
     span {
         color: $primary;
