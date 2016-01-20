@@ -5,7 +5,7 @@ html
         meta(charset="UTF-8")
 
         // Favicon and Title
-        title#page-title Silicon - Top NYT Stories
+        title#page-title Silicon - Top & Trending News Stories Only
         link(rel='shortcut icon', href='nyt.png')
 
         // META TAGS
@@ -47,27 +47,59 @@ html
                             | &nbsp;&nbsp;|&nbsp;&nbsp; 
                             span#result-num 20 Results
                     div.col-md-12#feed
-                        
-        button.btn.btn-kn
-            span.fa.fa-clone
-        div.col-md-1.sidebar
-            img.img-responsive.nyt-logo.img-circle(src="nyt.png")
+
+        // FIXED SIDEBAR 
+        div.col-md-1.sidebar.wow.fadeIn(data-wow-delay="3s")
+            a(href="http://www.nytimes.com/" target="_blank", data-toggle="tooltip", data-placement="right", title="NYTimes.com")
+                img.img-responsive.nyt-logo.img-circle(src="nyt.png")
             hr
-            a.btn.options.top-select#hot
+            a.btn.options.top-select#hot(data-toggle="tooltip", data-placement="right", title="Popular")
                 span.material-icons whatshot
-            a.btn.options#top
+            a.btn.options#top(data-toggle="tooltip", data-placement="right", title="TopStories")
                 span.material-icons timeline
             hr
-            a.btn.options#tech
+            a.btn.options#tech(data-toggle="tooltip", data-placement="right", title="Techonology")
                 span.material-icons cast
-            a.btn.options#business
+            a.btn.options#business(data-toggle="tooltip", data-placement="right", title="Business")
                 span.material-icons business
-            a.btn.options#politics
+            a.btn.options#politics(data-toggle="tooltip", data-placement="right", title="Politics")
                 span.material-icons account_balance
-            a.btn.options#world
+            a.btn.options#world(data-toggle="tooltip", data-placement="right", title="World")
                 span.material-icons public
-            a.btn.options#sports
+            a.btn.options#sports(data-toggle="tooltip", data-placement="right", title="Sports")
                 span.material-icons directions_bike
+
+        // MODAL POPUP BUTTON
+        button.btn.btn-kn.wow.bounceInRight(data-toggle="modal" data-target="#myModal", data-wow-delay="3.1s")
+            span.fa.fa-clone
+
+        // MODAL WINDOW
+        div#myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span.modal-close ×
+                        h4#myModalLabel.modal-title
+                            span.fa.fa-clone
+                            |   About Silicon
+                    .modal-body
+                        p.modal-text Silicon is a 
+                            a(href="http://www.nytimes.com/" target="_blank") NewYorkTimes 
+                            | Web Client that shows you the Most Popular News for the last 30 days, Top News Stories, and Top stories in Techonology, Business, Politics, World, and Sports. 
+                        hr.modal-hr
+                        p.modal-text For more info, visit the 
+                            a(href="https://github.com/NarulaKeshav/silicon" target="_blank") GitHub Repository page.
+                    .modal-footer
+                        a.btn.btn-social.twitter(href='https://twitter.com/NarulaKeshav', target='_blank')
+                          span.fa.fa-twitter
+                          |   Follow
+                        a.btn.btn-social.github(href='https://github.com/NarulaKeshav', target='_blank')
+                          span.fa.fa-github
+                          |   GitHub
+                        a.btn.btn-social.linkedin(href='https://linkedin.com/in/NarulaKeshav', target='_blank')
+                          span.fa.fa-linkedin
+                          |   View Profile
 
         // JAVASCRIPT CDNs
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
