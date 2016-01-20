@@ -31,6 +31,11 @@ $bold: 500;
     -ms-transition: all $seconds;
     transition: all $seconds;
 }
+@mixin brightness($percent) {
+    -webkit-filter: brightness($percent);
+    -moz-filter: brightness($percent);
+    -ms-filter: brightness($percent);
+}
 
 .font-property {
     font-family: $font;
@@ -77,6 +82,11 @@ a:hover {
 }
 
 /* Image Tags CSS */
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
 .nyt-logo {
     width: 80px;
     height: auto;
@@ -89,7 +99,11 @@ a:hover {
     margin-right: 15px;
     height: 120px;
     width: auto;
-    border-right: 1px solid #DDD;
+    @include brightness(70%);
+    @include transition(0.5s);
+}
+.card:hover #img-card {
+    @include brightness(100%);
 }
 
 /* Button Tags CSS */
@@ -124,26 +138,33 @@ a:hover {
         color: $primary;
     }
 }
-.btn-kn {
+.btn-kn,
+.btn-kn:focus {
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 50px;
     height: 50px;
     @include border-radius(100%);
+    @include transition(0.5s);
+    outline: none;
+    box-shadow: 0px $transparent;
     box-shadow: 2px 3px 4px #BBB;
     background: $primary;
     span {
         color: $white;
     }
 }
+.btn-kn:hover {
+    background: #444;
+}
 
 /* Text Properties CSS */
 #card-title {
     font-weight: $normal;
-    font-size: 16px;
+    font-size: 15px;
     padding: 14px 0px 0px 15px;
-    color: #666;
+    color: #888;
     @include transition(0.5s);
 }
 .card:hover #card-title {
@@ -162,8 +183,10 @@ a:hover {
     font-weight: $normal;
     font-size: 13px;
     padding: 10px 5px 5px 5px;
-    #result-num {
+    #result-num,
+    #view-type {
         color: #444;
+        font-weight: $bold;
     }
 }
 
