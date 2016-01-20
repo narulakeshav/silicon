@@ -55,6 +55,7 @@ $(document).ready(function() {
     hotNews.onclick = function() {
         extractData(popularURL);
         $(".options").removeClass("top-select");
+        $(".options").removeClass("select");
         $("#hot").addClass("top-select");
         viewing.innerHTML = "Most Popular";
     }
@@ -63,6 +64,7 @@ $(document).ready(function() {
     topNews.onclick = function() {
         extractData(topStoriesURL);
         $(".options").removeClass("top-select");
+        $(".options").removeClass("select");
         $("#top").addClass("top-select");
         viewing.innerHTML = "Top Stories";
     }
@@ -71,6 +73,7 @@ $(document).ready(function() {
     techNews.onclick = function() {
         var link = storyByCategory("technology");
         extractData(link);
+        $(".options").removeClass("top-select");
         $(".options").removeClass("select");
         $("#tech").addClass("select");
         viewing.innerHTML = "Techonology";
@@ -80,6 +83,7 @@ $(document).ready(function() {
     businessNews.onclick = function() {
         var link = storyByCategory("business");
         extractData(link);
+        $(".options").removeClass("top-select");
         $(".options").removeClass("select");
         $("#business").addClass("select");
         viewing.innerHTML = "Business";
@@ -89,6 +93,7 @@ $(document).ready(function() {
     politicsNews.onclick = function() {
         var link = storyByCategory("politics");
         extractData(link);
+        $(".options").removeClass("top-select");
         $(".options").removeClass("select");
         $("#politics").addClass("select");
         viewing.innerHTML = "Politics";
@@ -98,6 +103,7 @@ $(document).ready(function() {
     worldNews.onclick = function() {
         var link = storyByCategory("world");
         extractData(link);
+        $(".options").removeClass("top-select");
         $(".options").removeClass("select");
         $("#world").addClass("select");
         viewing.innerHTML = "World";
@@ -107,6 +113,7 @@ $(document).ready(function() {
     sportsNews.onclick = function() {
         var link = storyByCategory("sports");
         extractData(link);
+        $(".options").removeClass("top-select");
         $(".options").removeClass("select");
         $("#sports").addClass("select");
         viewing.innerHTML = "Sports";
@@ -116,6 +123,7 @@ $(document).ready(function() {
     travelNews.onclick = function() {
         var link = storyByCategory("travel");
         extractData(link);
+        $(".options").removeClass("top-select");
         $(".options").removeClass("select");
         $("#travel").addClass("select");
         viewing.innerHTML = "Travel";
@@ -214,7 +222,9 @@ $(document).ready(function() {
     // SHOWS SEARCH RESULTS WHEN THE USER PRESSES ENTER
     $("#input").keypress(function(event) {
         if (event.keyCode == 13) {
-            event.preventDefault()
+            event.preventDefault();
+            $(".options").removeClass("top-select");
+            $(".options").removeClass("select");
             searchArticles(this.value);
             $("#input").val("");
         }
