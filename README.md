@@ -1,2 +1,2 @@
-# silicon
-instagram client
+# Silicon
+NewYorkTimes Client
