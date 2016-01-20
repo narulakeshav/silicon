@@ -7,15 +7,17 @@ $(document).ready(function() {
     var searchURL = ""; 
 
     // MOST POPULAR ARTICLES API KEY & URL
-    var popularAPI = "4cbdf26656996c15cd99d80fbcfe9b99\:18\:74061741";
+    var popularAPI = "4cbdf26656996c15cd99d80fbcfe9b99%3A18%3A74061741";
     var popularURL = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/30.json?api-key=" + popularAPI;
-    console.log(popularURL);
+
     // CALLING THE MAIN FUNCTION
     mostPopular(popularURL);
 
     // TOP STORIES API KEY & URL
-    var topStoriesAPI = "dbedf6c902da5f3bcd66b13a15d45689:2:74061741";
-    var topStoriesURL = "";
+    var topStoriesAPI = "dbedf6c902da5f3bcd66b13a15d45689%3A2%3A74061741";
+    var topStoriesURL = "http://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + topStoriesAPI;
+    console.log(topStoriesURL);
+    //topStories(topStoriesURL);
 
     "use strict";
     var d = document;
@@ -24,25 +26,6 @@ $(document).ready(function() {
     var postedBy = d.getElementById("post-by");
     var imgSource  = "";
     var link = "";
-
-
-    // MOST POPULAR ARTICLES API KEY & URL
-    var popularAPI = "4cbdf26656996c15cd99d80fbcfe9b99\:18\:74061741";
-    var popularURL = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/30.json?api-key=" + popularAPI;
-    
-    // MOST POPULAR IS SELECTED AND TOGGLED DEFAULTLY
-    function mostPopular(popularURL) {
-        $.getJSON(popularURL, function(popular) {
-            popular.forEach(function(data) {
-                link = data.results.url;
-                cardTitle = data.results.title;
-                if(data.results.byline == "") { postedBy = data.results.source; }
-                else { postedBy = data.results.byline; }
-                imgSource = data.results.media[0].media-metadata[10].url;
-                createCardElements();
-            });
-        });
-    }
 
     // CREATES BASIC CARD STUCTURE TO SHOW THE NEWS
     function createCardElements() {
@@ -61,7 +44,7 @@ $(document).ready(function() {
     function setAttributes(outerDiv, innerDiv, postLink, image, title, author) {
         
         // SETS CLASS NAMES TO DIVS
-        outerDiv.className = "col-md-3";
+        outerDiv.className = "col-md-4";
         innerDiv.className = "col-md-12 card";  
 
         // SETS ATTRIBUTES TO LINK
@@ -73,7 +56,7 @@ $(document).ready(function() {
         image.setAttribute("id", "img-card");
         image.setAttribute("src", imgSource);
 
-        title.setAttribute("id", "cardTitle");
+        title.setAttribute("id", "card-title");
         title.innerHTML = cardTitle;
 
         author.setAttribute("id", "post-by");
@@ -97,5 +80,31 @@ $(document).ready(function() {
         // APPENDS THE CARD TO MAIN DIV
         mainDivToAppendTo.appendChild(outerDiv);
     }
+
+    // MOST POPULAR IS SELECTED AND TOGGLED DEFAULTLY
+    function mostPopular(popularURL) {
+        $.getJSON(popularURL, function(popular) {
+            if(popular.error) { alert("Error!"); }
+            else {
+                popular.results.forEach(function(data) {
+                    link = data.url;
+                    cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
+                    postedBy = data.byline == "" ? data.source : data.byline;
+                    // console.log(data.media.media-metadata[1]);
+                    imgSource = data.media[0]["media-metadata"][0].url;
+                    createCardElements();
+                });
+            }
+        });
+    }
+
+    // TOP NEWS STORY API
+    // function topStories(topStoriesURL) {
+    //     $.getJSON(topStoriesURL, function(top) {
+    //         top.forEach(topStoriesURL, function(data) {
+    //             link = data.results.url;
+    //         });
+    //     });
+    // }
 
 });
