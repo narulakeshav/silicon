@@ -18,12 +18,10 @@ $(document).ready(function() {
     var topStoriesURL = "http://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + topStoriesAPI;
 
     // HIDING THE INTRO DIV IN 4.6 SECONDS
-    var hideDiv = setTimeout(hideIntro, 3200);
+    var hideDiv = setTimeout(hideIntro, 3400);
     function hideIntro() {
         $(".intro").addClass("hideDiv");
     }
-    
-    // LOAD MOST POPULAR ON LOAD
 
     "use strict";
     var d = document;
@@ -31,7 +29,7 @@ $(document).ready(function() {
     var cardTitle = d.getElementById("card-title");
     var postedBy = d.getElementById("post-by");
     var numberOfPosts = d.getElementById("result-num");
-    var category = d.getElementById("view-type");
+    var viewing = d.getElementById("view-type");
     var imgSource  = "";
     var link = "";
 
@@ -47,46 +45,62 @@ $(document).ready(function() {
     // DISPLAYS MOST POPULAR NEWS
     hotNews.onclick = function() {
         extractData(popularURL);
+        $(".options").removeClass("top-select");
+        $("#hot").addClass("top-select");
+        viewing.innerHTML = "Most Popular";
     }
 
     // DISPLAYS TOP STORIES FROM NYT
     topNews.onclick = function() {
         extractData(topStoriesURL);
+        $(".options").removeClass("top-select");
+        $("#top").addClass("top-select");
+        viewing.innerHTML = "Top Stories";
     }
 
     // DISPLAYS TOP TECH NEWS
     techNews.onclick = function() {
         var link = storyByCategory("technology");
         extractData(link);
-        $("#tech").toggleClass("select");
+        $(".options").removeClass("select");
+        $("#tech").addClass("select");
+        viewing.innerHTML = "Techonology";
     }
 
     // DISPLAYS TOP BUSINESS NEWS
     businessNews.onclick = function() {
         var link = storyByCategory("business");
         extractData(link);
-        $("#business").toggleClass("select");
+        $(".options").removeClass("select");
+        $("#business").addClass("select");
+        viewing.innerHTML = "Business";
     }
 
     // DISPLAYS TOP POLITICS NEWS
     politicsNews.onclick = function() {
         var link = storyByCategory("politics");
         extractData(link);
-        $("#politics").toggleClass("select");
+        $(".options").removeClass("select");
+        $("#politics").addClass("select");
+        viewing.innerHTML = "Politics";
     }
 
     // DISPLAYS TOP WORLD NEWS
     worldNews.onclick = function() {
         var link = storyByCategory("world");
         extractData(link);
-        $("#world").toggleClass("select");
+        $(".options").removeClass("select");
+        $("#world").addClass("select");
+        viewing.innerHTML = "World";
     }
 
     // DISPLAYS TOP SPORTS NEWS
     sportsNews.onclick = function() {
         var link = storyByCategory("sports");
         extractData(link);
-        $("#sports").toggleClass("select");
+        $(".options").removeClass("select");
+        $("#sports").addClass("select");
+        viewing.innerHTML = "Sports";
     }
 
     function storyByCategory(category) {
@@ -112,7 +126,8 @@ $(document).ready(function() {
         
         // SETS CLASS NAMES TO DIVS
         outerDiv.className = "col-md-4";
-        innerDiv.className = "col-md-12 card";  
+        innerDiv.className = "col-md-12 card wow fadeInUp";
+        innerDiv.setAttribute("data-wow-delay", "0.2s");  
 
         // SETS ATTRIBUTES TO LINK
         postLink.setAttribute("href", link);
@@ -165,6 +180,7 @@ $(document).ready(function() {
         if(!first) {
             mainDivToAppendTo.innerHTML = null;
             $.getJSON(url, function(api) {
+                if(url == popularURL) numberOfPosts.innerHTML = "20 Results";
                 api.results.forEach(function(data) {
                     link = data.url;
                     cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
