@@ -9,8 +9,8 @@ $(document).ready(function() {
     /* API KEYS*/
     // SEARCH API KEY & URL
     "use strict";
-    var searchAPI = "4634ebb67ff1f2c505246874edd505ed:7:74061741";
-    var searchURL = ""; 
+    var searchAPI = "4634ebb67ff1f2c505246874edd505ed%3A7%3A74061741";
+    var searchURL = "";
 
     // MOST POPULAR ARTICLES API KEY & URL
     var popularAPI = "4cbdf26656996c15cd99d80fbcfe9b99%3A18%3A74061741";
@@ -27,9 +27,10 @@ $(document).ready(function() {
     var postedBy = d.getElementById("post-by");
     var numberOfPosts = d.getElementById("result-num");
     var viewing = d.getElementById("view-type");
-    var imgSource  = "";
-    var link = "";
     var loadMessage = d.getElementById("load-message");
+    var input = d.getElementById("input");
+    var link = "";
+    var imgSource  = "";
 
     // GETTING THE BUTTON ELEMENTS
     var hotNews = d.getElementById("hot");
@@ -208,6 +209,39 @@ $(document).ready(function() {
                 });
             });
         }
+    }
+
+    // SHOWS SEARCH RESULTS WHEN THE USER PRESSES ENTER
+    $("#input").keypress(function(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault()
+            searchArticles(this.value);
+            $("#input").val("");
+        }
+    });
+
+    // MAKES THE REQUEST AND DISPLAYS THE NEWS BASED ON RESULTS
+    function searchArticles(term) {
+        viewing.innerHTML = term;
+        term = term.replace(" ", "+");
+        searchURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + term + "&api-key=" + searchAPI;
+        console.log(searchURL);
+        mainDivToAppendTo.innerHTML = null;
+        $.getJSON(searchURL, function(api) {
+            var i = 0;
+            api.response.docs.forEach(function(data) {
+                link = data.web_url;
+                console.log(link);
+                // imgSource = data.multimedia
+                cardTitle = (data.headline.main.length > 45) ? data.headline.main.substring(0, 45) + " .." : data.headline.main;
+                console.log(cardTitle);
+                postedBy = "In " + data["section_name"];
+                console.log(postedBy);
+                i++;
+                createCardElements();
+            });
+            numberOfPosts.innerHTML = i + " results";
+        });
     }
 
     // DISPLAYS FUNNY/RANDOM MESSAGES IN LOAD
