@@ -84,6 +84,9 @@ a:hover {
 .card:hover {
     border-color: #CED5DB;
 }
+.hideDiv {
+    display: none;
+}
 
 /* Image Tags CSS */
 img {
@@ -224,4 +227,30 @@ hr {
 .line {
   margin-top: 6px;
   border-color: #DDD; 
+}
+
+/* Intro CSS */
+.intro {
+    background: #FFF;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    padding-top: 150px;
+    @include transition(0.5s);
+    .intro-img{
+        height: 130px;
+        margin-bottom: 15px;
+    }
+    .intro-text {
+        color: #333;
+        font-size: 35px;
+        text-align: center;
+    }
+    .intro-loading {
+        color: #888;
+        text-align: center;
+        font-size: 18px;
+    }
 }
