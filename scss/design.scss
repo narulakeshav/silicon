@@ -82,6 +82,7 @@ a:hover {
     margin-bottom: 20px;
     border: 1px solid #E1E6EB;
     @include transition(0.5s);
+    height: 120px;
 }
 .card:hover {
     border-color: #CED5DB;
