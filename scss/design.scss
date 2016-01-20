@@ -71,9 +71,9 @@ a:hover {
 .card {
     background: $white;
     padding: 0;
-    padding-bottom: 20px;
+    padding-right: 10px;
     margin-bottom: 20px;
-    border: 1px solid #DDD;
+    border: 1px solid #E1E6EB;
 }
 
 /* Image Tags CSS */
@@ -83,6 +83,14 @@ a:hover {
     margin: 0 auto;
     margin-top: 15px;
 }
+#img-card {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    height: 120px;
+    width: auto;
+    border-right: 1px solid #DDD;
+}
 
 /* Button Tags CSS */
 .options,
@@ -90,7 +98,7 @@ a:hover {
     height: 45px;
     width: 45px !important;
     @include border-radius(100%);
-    background: #444;
+    background: #252525;
     border: 1px solid $transparent;
     margin: 6px 2px;
     @include transition(0.5s);
@@ -116,24 +124,45 @@ a:hover {
         color: $primary;
     }
 }
+.btn-kn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    @include border-radius(100%);
+    box-shadow: 2px 3px 4px #BBB;
+    background: $primary;
+    span {
+        color: $white;
+    }
+}
 
 /* Text Properties CSS */
 #card-title {
-    font-weight: $bold;
+    font-weight: $normal;
     font-size: 16px;
-    padding: 10px 0px 0px 15px;
+    padding: 14px 0px 0px 15px;
+    color: #666;
+    @include transition(0.5s);
+}
+.card:hover #card-title {
+    color: $primary;
 }
 #post-by {
     color: $gray;
     padding: 0px 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: $normal;
 }
 #viewing {
     color: $gray;
     text-transform: uppercase;
     font-weight: $normal;
     font-size: 13px;
-    padding: 15px 5px 10px 5px;
-    #viewing-type {
+    padding: 10px 5px 5px 5px;
+    #result-num {
         color: #444;
     }
 }
@@ -161,6 +190,9 @@ form {
 }
 
 /* Span and Extra CSS */
+hr {
+    border-color: #444;
+}
 .line {
   margin-top: 6px;
   border-color: #DDD; 
