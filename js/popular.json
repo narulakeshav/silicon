@@ -1,0 +1,1925 @@
+{
+    "status":"OK",
+    "copyright":"Copyright (c) 2016 The New York Times Company.  All Rights Reserved.",
+    "num_results":874,
+    "results":[
+        {
+            "url":"http:\/\/www.nytimes.com\/interactive\/2016\/01\/07\/travel\/places-to-visit.html",
+            "adx_keywords":"",
+            "column":"",
+            "section":"Travel",
+            "byline":"",
+            "type":"Interactive",
+            "title":"52 Places to Go in 2016",
+            "abstract":"It\u2019s a big world out there, so we\u2019ve narrowed it down for you. From the temples of Malta to the crystalline waters of the Yucat\u00e1n, explore our top destinations to visit this year.",
+            "published_date":"2016-01-07",
+            "source":"The New York Times",
+            "id":100000004115180,
+            "asset_id":100000004115180,
+            "views":1,
+            "des_facet":[
+                "TRAVEL AND VACATIONS"
+            ],
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"The Holbox pier in car-free Isla Holbox.",
+                    "copyright":"John Burcham for The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":683,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1365,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/travel\/10WTG14\/10WTG14-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/13\/upshot\/dear-powerball-winner-take-our-advice-and-take-the-annuity.html",
+            "adx_keywords":"Lotteries;Income Tax;Contests and Prizes;Annuities",
+            "column":"The Upshot",
+            "section":"The Upshot",
+            "byline":"By JOSH BARRO",
+            "type":"Article",
+            "title":"Dear Powerball Winner: Take Our Advice and Take the Annuity",
+            "abstract":"Comparing payout options is fun to imagine, but also a useful way to think about taxes, investment opportunities and human nature.",
+            "published_date":"2016-01-13",
+            "source":"The New York Times",
+            "id":100000004139599,
+            "asset_id":100000004139599,
+            "views":2,
+            "des_facet":[
+                "LOTTERIES",
+                "INCOME TAX"
+            ],
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Actually, it\u2019s either $1.5 billion (which the sign cannot accommodate) or $930 million, depending on how you choose to take your winnings.",
+                    "copyright":"Seth Wenig\/Associated Press",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":683,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1365,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/upshot\/13UP-LOTTERY\/13UP-LOTTERY-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2015\/12\/30\/business\/economy\/for-the-wealthiest-private-tax-system-saves-them-billions.html",
+            "adx_keywords":"High Net Worth Individuals;Presidential Election of 2016;Taxation;Income Tax;Tax Shelters;Income Inequality;Federal Taxes (US);Internal Revenue Service;Bacon, Louis Moore;Cohen, Steven A;Druckenmiller, Stanley F;Loeb, Daniel S;Soros, George;Simons, James Harris;Mercer, Robert (1946- );Inheritance and Estate Taxes",
+            "column":"Buying Power",
+            "section":"Business Day",
+            "byline":"By NOAM SCHEIBER and PATRICIA COHEN",
+            "type":"Article",
+            "title":"For the Wealthiest, a Private Tax System That Saves Them Billions",
+            "abstract":"The very richest are able to quietly shape tax policy that will allow them to shield billions in income.",
+            "published_date":"2015-12-30",
+            "source":"The New York Times",
+            "id":100000004111954,
+            "asset_id":100000004111954,
+            "views":3,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016",
+                "TAXATION",
+                "INCOME TAX",
+                "TAX SHELTERS",
+                "FEDERAL TAXES (US)"
+            ],
+            "org_facet":[
+                "INTERNAL REVENUE SERVICE"
+            ],
+            "per_facet":[
+                "BACON, LOUIS MOORE",
+                "COHEN, STEVEN A",
+                "DRUCKENMILLER, STANLEY F",
+                "LOEB, DANIEL S",
+                "SOROS, GEORGE",
+                "SIMONS, JAMES HARRIS",
+                "MERCER, ROBERT (1946- )"
+            ],
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Daniel S. Loeb, shown with his wife, Margaret, runs the $17 billion Third Point hedge fund. Mr. Loeb, who has owned a home in East Hampton, has contributed to Jeb Bush\u2019s super PAC and given $1 million to the American Unity Super PAC, which supports gay rights.",
+                    "copyright":"Left: Patrick McMullan Company; Right: Doug Kuntz",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-square320-v2.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-thumbStandard-v2.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-articleInline-v2.jpg",
+                            "format":"Normal",
+                            "height":119,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-sfSpan-v2.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-jumbo-v2.jpg",
+                            "format":"Jumbo",
+                            "height":639,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-superJumbo-v2.jpg",
+                            "format":"superJumbo",
+                            "height":1278,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-square640-v2.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-thumbLarge-v2.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-mediumThreeByTwo210-v2.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/30\/business\/30DONORS-COMBO2\/30DONORS-COMBO2-mediumThreeByTwo440-v2.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/12\/arts\/music\/david-bowie-dies-at-69.html",
+            "adx_keywords":"Deaths (Obituaries);Music;Bowie, David",
+            "column":"",
+            "section":"Arts",
+            "byline":"By JON PARELES",
+            "type":"Article",
+            "title":"David Bowie Dies at 69; Star Transcended Music, Art and Fashion",
+            "abstract":"Mr. Bowie taught generations of musicians about the power of drama, images and personas. He had been treated for cancer for the last 18 months.",
+            "published_date":"2016-01-12",
+            "source":"The New York Times",
+            "id":100000004136881,
+            "asset_id":100000004136881,
+            "views":4,
+            "des_facet":[
+                "DEATHS (OBITUARIES)",
+                "MUSIC"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "BOWIE, DAVID"
+            ],
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"David Bowie at the Glastonbury Festival in 2000.",
+                    "copyright":"Dan Chung\/Reuters",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-articleInline.jpg",
+                            "format":"Normal",
+                            "height":128,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":690,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1379,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/arts\/music\/20160112_BOWIE_HP-slide-8HWE\/20160112_BOWIE_HP-slide-8HWE-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/12\/opinion\/the-brutalism-of-ted-cruz.html",
+            "adx_keywords":"Presidential Election of 2016;Evangelical Movement;Cruz, Ted;Texas;Supreme Court (US);Conservatism (US Politics);Republican Party",
+            "column":"Op-Ed Columnist",
+            "section":"Opinion",
+            "byline":"By DAVID BROOKS",
+            "type":"Article",
+            "title":"The Brutalism of Ted Cruz",
+            "abstract":"The Texas Republican lacks the Christian virtues many evangelical voters may expect.",
+            "published_date":"2016-01-12",
+            "source":"The New York Times",
+            "id":100000004138323,
+            "asset_id":100000004138323,
+            "views":5,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016",
+                "EVANGELICAL MOVEMENT",
+                "CONSERVATISM (US POLITICS)"
+            ],
+            "org_facet":[
+                "SUPREME COURT (US)",
+                "REPUBLICAN PARTY"
+            ],
+            "per_facet":[
+                "CRUZ, TED"
+            ],
+            "geo_facet":[
+                "TEXAS"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"",
+                    "copyright":"Eric Thayer for The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-articleInline.jpg",
+                            "format":"Normal",
+                            "height":132,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":710,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1419,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/12\/opinion\/12brooksWeb\/12brooksWeb-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2015\/12\/22\/us\/politics\/president-obama-accuses-donald-trump-of-exploiting-working-class-fears.html",
+            "adx_keywords":"Obama, Barack;Trump, Donald J;Presidential Election of 2016;National Public Radio;Islamic State in Iraq and Syria (ISIS);Republican Party;Morning Edition (Radio Program)",
+            "column":"",
+            "section":"U.S.",
+            "byline":"By JULIE HIRSCHFELD DAVIS",
+            "type":"Article",
+            "title":"Obama Accuses Trump of Exploiting Working-Class Fears",
+            "abstract":"In an interview with NPR, the president also said some of the scorn directed at him personally stemmed from the fact that he is the first African-American in the White House.",
+            "published_date":"2015-12-22",
+            "source":"The New York Times",
+            "id":100000004104673,
+            "asset_id":100000004104673,
+            "views":6,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016"
+            ],
+            "org_facet":[
+                "NATIONAL PUBLIC RADIO",
+                "ISLAMIC STATE IN IRAQ AND SYRIA (ISIS)",
+                "REPUBLICAN PARTY"
+            ],
+            "per_facet":[
+                "OBAMA, BARACK",
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"President Obama during a news conference on Friday. In an interview with NPR, he was critical of Donald J. Trump while defending his own strategy for taking on the Islamic State.",
+                    "copyright":"Stephen Crowley\/The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-articleInline.jpg",
+                            "format":"Normal",
+                            "height":118,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-sfSpan.jpg",
+                            "format":"Large",
+                            "height":264,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":638,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1275,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/21\/us\/22obama-web\/22obama-web-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/interactive\/2016\/01\/15\/style\/canada-justin-trudeau-cool.html",
+            "adx_keywords":"",
+            "column":"",
+            "section":"Style",
+            "byline":"By",
+            "type":"Interactive",
+            "title":"With the Rise of Justin Trudeau, Canada Is Suddenly ... Hip?",
+            "abstract":"Led by a handsome prime minister and artists like Drake, the Weeknd and Sarah Polley, Canada is shaking off its polite image.",
+            "published_date":"2016-01-15",
+            "source":"The New York Times",
+            "id":100000004147700,
+            "asset_id":100000004147700,
+            "views":7,
+            "des_facet":"",
+            "org_facet":"",
+            "per_facet":[
+                "TRUDEAU, JUSTIN",
+                "JOE ZEE",
+                "SARAH NICOLE PRICKETT",
+                "GRAYDON CARTER",
+                "DRAKE"
+            ],
+            "geo_facet":[
+                "CANADA"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"",
+                    "copyright":"From left, Brad Barket\/Getty Images For Iheartmedia; Neilson Barnard\/Getty Images For Ifp; Erin Baiano for The New York Times; Chris Wattie\/Reuters; Jordan Strauss\/Invision, via Associated Press; Jesse Dittmar for The New York Times; Nicholas Hunt\/Getty Im",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-thumbStandard-v2.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-articleInline-v3.jpg",
+                            "format":"Normal",
+                            "height":108,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-sfSpan-v2.jpg",
+                            "format":"Large",
+                            "height":264,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-jumbo-v3.jpg",
+                            "format":"Jumbo",
+                            "height":583,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-superJumbo-v3.jpg",
+                            "format":"superJumbo",
+                            "height":1166,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-thumbLarge-v2.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/17\/fashion\/17CANADACOOL-SPAN\/17CANADACOOL-SPAN-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/interactive\/2015\/12\/24\/upshot\/24up-family.html",
+            "adx_keywords":"",
+            "column":"The Upshot",
+            "section":"The Upshot",
+            "byline":"By QUOCTRUNG BUI and CLAIRE CAIN MILLER",
+            "type":"Interactive",
+            "title":"The Typical American Lives Only 18 Miles From Mom",
+            "abstract":"The popular perception of Americans is that they are independent and rootless, but the reality is that people tend not to move very far from their parents.",
+            "published_date":"2015-12-24",
+            "source":"The New York Times",
+            "id":100000004106116,
+            "asset_id":100000004106116,
+            "views":8,
+            "des_facet":[
+                "FAMILIES AND FAMILY LIFE",
+                "PARENTING",
+                "CHILD CARE",
+                "WORK-LIFE BALANCE"
+            ],
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"",
+                    "copyright":"The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-square320.png",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-thumbStandard.png",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-articleInline.png",
+                            "format":"Normal",
+                            "height":118,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-sfSpan.png",
+                            "format":"Large",
+                            "height":264,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-jumbo.png",
+                            "format":"Jumbo",
+                            "height":633,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-superJumbo.png",
+                            "format":"superJumbo",
+                            "height":663,
+                            "width":1072
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-square640.png",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-thumbLarge.png",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-mediumThreeByTwo210.png",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/24\/upshot\/24up-family-map-promo\/24up-family-map-promo-mediumThreeByTwo440.png",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/03\/us\/politics\/for-donald-trump-lessons-from-a-brothers-suffering.html",
+            "adx_keywords":"Trump, Donald J;Trump, Fred C Jr (1938-81);Presidential Election of 2016;Alcohol Abuse;Queens (NYC)",
+            "column":"",
+            "section":"U.S.",
+            "byline":"By JASON HOROWITZ",
+            "type":"Article",
+            "title":"For Donald Trump, Lessons From a Brother\u2019s Suffering",
+            "abstract":"Mr. Trump, whose appeal is predicated on an aura of toughness and perpetual success, seldom speaks of his brother Freddy, who died as an alcoholic in 1981 at age 43.",
+            "published_date":"2016-01-03",
+            "source":"The New York Times",
+            "id":100000004120471,
+            "asset_id":100000004120471,
+            "views":9,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "TRUMP, DONALD J",
+                "TRUMP, FRED C JR (1938-81)"
+            ],
+            "geo_facet":[
+                "QUEENS (NYC)"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"The Trump siblings \u2014 from left, Robert, Elizabeth, Freddy, Donald and Maryanne \u2014 in an undated photo. Freddy Trump, who died in 1981, was eight years older than Donald.",
+                    "copyright":"via Donald Trump campaign",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-articleInline.jpg",
+                            "format":"Normal",
+                            "height":129,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":506,
+                            "width":718
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":506,
+                            "width":718
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/01\/us\/03FREDTRUMPweb1\/03FREDTRUMPweb1-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/10\/world\/americas\/el-chapo-mexican-drug-lord-interview-with-sean-penn.html",
+            "adx_keywords":"Guzman Loera, Joaquin;Mexico;Penn, Sean;Drug Cartels;Drug Abuse and Traffic;Rolling Stone;Fugitives;Prison Escapes;Actors and Actresses;Sinaloa (Mexico)",
+            "column":"",
+            "section":"World",
+            "byline":"By RAVI SOMAIYA",
+            "type":"Article",
+            "title":"Sean Penn Met With \u2018El Chapo\u2019 for Interview in His Hide-Out",
+            "abstract":"Before he was captured, Joaqu\u00edn Guzm\u00e1n Loera met with the actor in his jungle hide-out for seven hours in October and spoke about his empire, Donald Trump and the movie business for Rolling Stone.",
+            "published_date":"2016-01-10",
+            "source":"The New York Times",
+            "id":100000004135135,
+            "asset_id":100000004135135,
+            "views":10,
+            "des_facet":[
+                "DRUG CARTELS",
+                "DRUG ABUSE AND TRAFFIC",
+                "FUGITIVES"
+            ],
+            "org_facet":[
+                "ROLLING STONE"
+            ],
+            "per_facet":[
+                "GUZMAN LOERA, JOAQUIN",
+                "PENN, SEAN"
+            ],
+            "geo_facet":[
+                "MEXICO",
+                "SINALOA (MEXICO)"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"The actor Sean Penn, left, and the drug lord Joaqu\u00edn Guzm\u00e1n Loera in a photo taken for interview authentication purposes.",
+                    "copyright":"Rolling Stone",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":682,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1295,
+                            "width":1943
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/world\/americas\/10ROLLINGSTONE\/10ROLLINGSTONE-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/10\/magazine\/the-lawyer-who-became-duponts-worst-nightmare.html",
+            "adx_keywords":"DuPont Co;Bilott, Robert A (1965- );West Virginia;Hazardous and Toxic Substances;Water Pollution;Suits and Litigation (Civil);Tennant, Wilbur (1942-2009);Environmental Protection Agency;Waste Materials and Disposal",
+            "column":"Feature",
+            "section":"Magazine",
+            "byline":"By NATHANIEL RICH",
+            "type":"Article",
+            "title":"The Lawyer Who Became DuPont\u2019s Worst Nightmare",
+            "abstract":"Rob Bilott was a corporate defense attorney for eight years. Then he took on an environmental suit that would upend his entire career \u2014 and expose a brazen, decades-long history of chemical pollution.",
+            "published_date":"2016-01-10",
+            "source":"The New York Times",
+            "id":100000004120572,
+            "asset_id":100000004120572,
+            "views":11,
+            "des_facet":[
+                "WATER POLLUTION",
+                "SUITS AND LITIGATION (CIVIL)"
+            ],
+            "org_facet":[
+                "DUPONT CO",
+                "ENVIRONMENTAL PROTECTION AGENCY"
+            ],
+            "per_facet":[
+                "BILOTT, ROBERT A (1965- )",
+                "TENNANT, WILBUR (1942-2009)"
+            ],
+            "geo_facet":[
+                "WEST VIRGINIA"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rob Bilott on land owned by the Tennants near Parkersburg, W.Va.",
+                    "copyright":"Bryan Schutmaat for The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-articleInline.jpg",
+                            "format":"Normal",
+                            "height":118,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":638,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1276,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/magazine\/10dupont1\/10mag-10dupont-t_CA4-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/interactive\/2015\/12\/27\/sunday-review\/2015-year-in-pictures.html",
+            "adx_keywords":"",
+            "column":"",
+            "section":"Sunday Review",
+            "byline":"",
+            "type":"Interactive",
+            "title":"The Year in Pictures 2015",
+            "abstract":"A selection of the year\u2019s most riveting photographs.",
+            "published_date":"2015-12-27",
+            "source":"The New York Times",
+            "id":100000004094762,
+            "asset_id":100000004094762,
+            "views":12,
+            "des_facet":[
+                "PHOTOGRAPHY",
+                "MIDDLE EAST AND AFRICA MIGRANT CRISIS",
+                "PARIS ATTACKS (NOVEMBER 2015)"
+            ],
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"",
+                    "copyright":"Tomas Munita for The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/HP-2015-YIP-horiz-June-slide-Rohingya-square320-v2.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/HP-2015-YIP-horiz-June-slide-Rohingya-thumbStandard-v2.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/2015-YIP-June-slide-VDY1-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/2015-YIP-June-slide-VDY1-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/2015-YIP-June-slide-VDY1-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":683,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/2015-YIP-June-slide-VDY1-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1367,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/HP-2015-YIP-horiz-June-slide-Rohingya-square640-v2.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/HP-2015-YIP-horiz-June-slide-Rohingya-thumbLarge-v2.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/HP-2015-YIP-horiz-June-slide-Rohingya-mediumThreeByTwo210-v2.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/sunday-review\/HP-2015-YIP-horiz-June-slide-Rohingya\/HP-2015-YIP-horiz-June-slide-Rohingya-mediumThreeByTwo440-v2.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/interactive\/2015\/12\/24\/style\/ways-to-be-a-better-person.html",
+            "adx_keywords":"",
+            "column":"",
+            "section":"Style",
+            "byline":"By ANYA STRZEMIEN",
+            "type":"Interactive",
+            "title":"15 Ways to Be a Better Person in 2016",
+            "abstract":"A year\u2019s worth of tips from the Styles archive.",
+            "published_date":"2015-12-24",
+            "source":"The New York Times",
+            "id":100000004111784,
+            "asset_id":100000004111784,
+            "views":13,
+            "des_facet":[
+                "WELLS",
+                "LOVE (EMOTION)",
+                "DATING AND RELATIONSHIPS",
+                "FASHION AND APPAREL",
+                "ELDERLY",
+                "SCIENCE AND TECHNOLOGY",
+                "PETS"
+            ],
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"",
+                    "copyright":"Peter Arkle",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-square320-v4.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-thumbStandard-v5.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-articleInline-v4.jpg",
+                            "format":"Normal",
+                            "height":82,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-sfSpan-v4.jpg",
+                            "format":"Large",
+                            "height":171,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-jumbo-v4.jpg",
+                            "format":"Jumbo",
+                            "height":444,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-superJumbo-v4.jpg",
+                            "format":"superJumbo",
+                            "height":887,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-square640-v4.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-thumbLarge-v5.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-mediumThreeByTwo210-v11.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/17\/fashion\/17better-person-combo\/17better-person-combo-mediumThreeByTwo440-v5.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2015\/12\/20\/finally-an-explanation-for-hillary-clintons-long-bathroom-break\/",
+            "adx_keywords":"ABC News; Abedin, Huma; Clinton, Hillary Rodham; Manchester (NH); Presidential Election of 2016",
+            "column":"First Draft",
+            "section":"U.S.",
+            "byline":"By AMY CHOZICK",
+            "type":"Blog",
+            "title":"Finally, an Explanation for Hillary Clinton&#8217;s Long Bathroom Break",
+            "abstract":"The women&#8217;s restroom was much farther from the stage than the men&#8217;s restroom, resulting in an unusual disappearance on Saturday night.",
+            "published_date":"2015-12-20",
+            "source":"The New York Times",
+            "id":343,
+            "asset_id":343,
+            "views":14,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016"
+            ],
+            "org_facet":[
+                "ABC NEWS"
+            ],
+            "per_facet":[
+                "ABEDIN, HUMA",
+                "CLINTON, HILLARY RODHAM"
+            ],
+            "geo_facet":[
+                "MANCHESTER (NH)"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"After a commercial break, the Democratic presidential debate on Saturday resumed without Hillary Clinton on stage.",
+                    "copyright":"Richard Perry\/The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":683,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1365,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/19\/us\/politics\/19firstdraft-bathroombreak\/19firstdraft-bathroombreak-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/interactive\/2015\/12\/16\/magazine\/the-lives-they-lived.html",
+            "adx_keywords":"",
+            "column":"Feature",
+            "section":"Magazine",
+            "byline":"",
+            "type":"Interactive",
+            "title":"The Lives They Lived",
+            "abstract":"Remembering some of the artists, innovators and thinkers we lost in the past year.",
+            "published_date":"2015-12-16",
+            "source":"The New York Times",
+            "id":100000004096952,
+            "asset_id":100000004096952,
+            "views":15,
+            "des_facet":[
+                "DEATHS (OBITUARIES)"
+            ],
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"",
+                    "copyright":"Craig Cutler for The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-square320-v3.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-thumbStandard-v3.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-articleInline-v3.jpg",
+                            "format":"Normal",
+                            "height":134,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-sfSpan-v3.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-jumbo-v3.jpg",
+                            "format":"Jumbo",
+                            "height":724,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-superJumbo-v3.jpg",
+                            "format":"superJumbo",
+                            "height":1448,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-square640-v3.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-thumbLarge-v3.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-mediumThreeByTwo210-v3.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/27\/magazine\/27cover\/27cover-mediumThreeByTwo440-v3.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/14\/opinion\/campaign-stops\/why-i-will-never-vote-for-donald-trump.html",
+            "adx_keywords":"Presidential Election of 2016;Trump, Donald J;Clinton, Hillary Rodham;Republican Party;United States Politics and Government",
+            "column":"Op-Ed | Peter Wehner",
+            "section":"Opinion",
+            "byline":"By PETER WEHNER",
+            "type":"Article",
+            "title":"Why I Will Never Vote for Donald Trump",
+            "abstract":"Party loyalty has limits. Mr. Trump has altered the political equation because he has altered the moral equation.",
+            "published_date":"2016-01-14",
+            "source":"The New York Times",
+            "id":100000004142365,
+            "asset_id":100000004142365,
+            "views":16,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016",
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "org_facet":[
+                "REPUBLICAN PARTY"
+            ],
+            "per_facet":[
+                "TRUMP, DONALD J",
+                "CLINTON, HILLARY RODHAM"
+            ],
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"West Des Moines, Iowa",
+                    "copyright":"Jae C. Hong\/Associated Press",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":682,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1364,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/14\/opinion\/14wehnerWeb\/14wehnerWeb-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2015\/12\/28\/opinion\/campaign-stops\/250000-a-year-is-not-middle-class.html",
+            "adx_keywords":"Clinton, Hillary Rodham;Income Inequality;Income Tax;Presidential Election of 2016;Federal Taxes (US);Sanders, Bernard;Obama, Barack;Taxation;O'Malley, Martin J",
+            "column":"Campaign Stops",
+            "section":"Opinion",
+            "byline":"By BRYCE COVERT",
+            "type":"Article",
+            "title":"$250,000 a Year Is Not Middle Class",
+            "abstract":"What Hillary Clinton gets wrong with her pledge not to raise taxes.",
+            "published_date":"2015-12-28",
+            "source":"The New York Times",
+            "id":100000004099898,
+            "asset_id":100000004099898,
+            "views":17,
+            "des_facet":[
+                "INCOME TAX",
+                "FEDERAL TAXES (US)",
+                "TAXATION"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "CLINTON, HILLARY RODHAM",
+                "SANDERS, BERNARD",
+                "OBAMA, BARACK",
+                "O'MALLEY, MARTIN J"
+            ],
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"People waited in line at the post office to file their taxes before the April 15 deadline.",
+                    "copyright":"Spencer Platt\/Getty Images",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-articleInline.jpg",
+                            "format":"Normal",
+                            "height":126,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":682,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1363,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/28\/opinion\/28covertWeb\/28covertWeb-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/13\/dining\/pete-wells-per-se-review.html",
+            "adx_keywords":"Restaurants;Columbus Circle (Manhattan, NY);Keller, Thomas;Per Se (Manhattan, NY, Restaurant);Per Se (NYC)",
+            "column":"",
+            "section":"Food",
+            "byline":"By PETE WELLS",
+            "type":"Article",
+            "title":"At Thomas Keller\u2019s Per Se, Slips and Stumbles",
+            "abstract":"A new look at one of the nation\u2019s landmark restaurants.",
+            "published_date":"2016-01-13",
+            "source":"The New York Times",
+            "id":100000004137655,
+            "asset_id":100000004137655,
+            "views":18,
+            "des_facet":[
+                "RESTAURANTS"
+            ],
+            "org_facet":[
+                "PER SE (MANHATTAN, NY, RESTAURANT)",
+                "PER SE (NYC)"
+            ],
+            "per_facet":[
+                "KELLER, THOMAS"
+            ],
+            "geo_facet":[
+                "COLUMBUS CIRCLE (MANHATTAN, NY)"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"",
+                    "copyright":"Karsten Moran for The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-square320-v2.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-thumbStandard-v2.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-sfSpan-v2.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":684,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1367,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-square640-v2.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-thumbLarge-v2.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-mediumThreeByTwo210-v2.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/13\/dining\/13REST-slide-DPTT\/13REST-slide-DPTT-mediumThreeByTwo440-v2.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/10\/us\/politics\/for-republicans-mounting-fears-of-lasting-split.html",
+            "adx_keywords":"Presidential Election of 2016;United States Politics and Government;Republican Party;Conservatism (US Politics)",
+            "column":"",
+            "section":"U.S.",
+            "byline":"By PATRICK HEALY and JONATHAN MARTIN",
+            "type":"Article",
+            "title":"For Republicans, Mounting Fears of Lasting Split",
+            "abstract":"In an election campaign with a different, angry feel, the party&#8217;s establishment is facing a people&#8217;s coup.",
+            "published_date":"2016-01-10",
+            "source":"The New York Times",
+            "id":100000004133045,
+            "asset_id":100000004133045,
+            "views":19,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016",
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "org_facet":[
+                "REPUBLICAN PARTY"
+            ],
+            "per_facet":"",
+            "geo_facet":"",
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Donald J. Trump at a rally in Ottumwa, Iowa, Saturday night.",
+                    "copyright":"Max Whittaker for The New York Times",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":683,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1365,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/10\/us\/10repubs-JP-01-ALT\/10repubs-JP-01-ALT-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2015\/12\/22\/donald-trump-goes-vulgar-in-swipe-at-hillary-clinton\/",
+            "adx_keywords":"Clinton, Hillary Rodham; Grand Rapids (Mich); Presidential Election of 2016; Trump, Donald J",
+            "column":"First Draft",
+            "section":"U.S.",
+            "byline":"By MICHAEL BARBARO",
+            "type":"Blog",
+            "title":"Donald Trump Goes Vulgar in Swipe at Hillary Clinton",
+            "abstract":"Donald J. Trump used a vulgar reference to male anatomy when referring to Hillary Clinton&#8217;s 2008 campaign and he mocked her prolonged bathroom break at Saturday&#8217;s Democratic debate.",
+            "published_date":"2015-12-22",
+            "source":"The New York Times",
+            "id":343,
+            "asset_id":343,
+            "views":20,
+            "des_facet":[
+                "PRESIDENTIAL ELECTION OF 2016"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "CLINTON, HILLARY RODHAM",
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet":[
+                "GRAND RAPIDS (MICH)"
+            ],
+            "media":[
+                {
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Donald J. Trump at a campaign rally in Grand Rapids, Mich., on Monday.",
+                    "copyright":"Scott Olson\/Getty Images",
+                    "media-metadata":[
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-square320.jpg",
+                            "format":"square320",
+                            "height":320,
+                            "width":320
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-thumbStandard.jpg",
+                            "format":"Standard Thumbnail",
+                            "height":75,
+                            "width":75
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-articleInline.jpg",
+                            "format":"Normal",
+                            "height":127,
+                            "width":190
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-sfSpan.jpg",
+                            "format":"Large",
+                            "height":263,
+                            "width":395
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-jumbo.jpg",
+                            "format":"Jumbo",
+                            "height":683,
+                            "width":1024
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-superJumbo.jpg",
+                            "format":"superJumbo",
+                            "height":1365,
+                            "width":2048
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-square640.jpg",
+                            "format":"square640",
+                            "height":640,
+                            "width":640
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-thumbLarge.jpg",
+                            "format":"Large Thumbnail",
+                            "height":150,
+                            "width":150
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-mediumThreeByTwo210.jpg",
+                            "format":"mediumThreeByTwo210",
+                            "height":140,
+                            "width":210
+                        },
+                        {
+                            "url":"http:\/\/static01.nyt.com\/images\/2015\/12\/22\/us\/22firstdraft-trumptax\/22firstdraft-trumptax-mediumThreeByTwo440.jpg",
+                            "format":"mediumThreeByTwo440",
+                            "height":293,
+                            "width":440
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
