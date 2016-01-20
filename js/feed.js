@@ -39,6 +39,7 @@ $(document).ready(function() {
     var politicsNews = d.getElementById("politics");
     var worldNews = d.getElementById("world");
     var sportsNews = d.getElementById("sports");
+    var travelNews = d.getElementById("travel");
 
     // DISPLAYING RANDOM LOAD MESSAGE
     loadMessage.innerHTML = randomLoadMessage();
@@ -110,6 +111,15 @@ $(document).ready(function() {
         viewing.innerHTML = "Sports";
     }
 
+    // DISPLAYS TOP TRAVEL NEWS
+    travelNews.onclick = function() {
+        var link = storyByCategory("travel");
+        extractData(link);
+        $(".options").removeClass("select");
+        $("#travel").addClass("select");
+        viewing.innerHTML = "Travel";
+    }
+
     function storyByCategory(category) {
         // TOP STORIES FROM CATEGORIES
         return "http://api.nytimes.com/svc/topstories/v2/" + category + ".json?api-key=" + topStoriesAPI;
@@ -143,7 +153,7 @@ $(document).ready(function() {
         // TO THUMBNAIL, TITLE, AND AUTHOR
         image.className = "img-responsive";
         image.setAttribute("id", "img-card");
-        image.setAttribute("src", imgSource);
+        image.setAttribute("src", "img-nyt.png");
 
         title.setAttribute("id", "card-title");
         title.innerHTML = cardTitle;
@@ -191,8 +201,8 @@ $(document).ready(function() {
                 api.results.forEach(function(data) {
                     link = data.url;
                     cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
-                    postedBy = data.byline == "" ? data.source : data.byline;
-                    if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
+                    postedBy = data.byline == "" ? data.source : (data.byline.length > 46)? data.byline.substring(0,46) + " .." : data.byline;
+                    // if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
                     // else { imgSource = data.multimedia[1]["url"]; }
                     createCardElements();
                 });
@@ -202,7 +212,7 @@ $(document).ready(function() {
 
     // DISPLAYS FUNNY/RANDOM MESSAGES IN LOAD
     function randomLoadMessage() {
-        var arr = ["Shovelling coal into the server ..", "At least you're not on hold ..", "I'm testing your patience ..", "A few bits tried to escape, but we caught them ..", "The bits are flowing slowly today ..", "The architects are still drafting ..", "The bits are still breeding ..", "And dream of faster computers ..", "would you like fries with that? ..", "The server is powered by a lemon and two electrodes ..", "Waiting for satellite moves into position .."];
+        var arr = ["Shovelling coal into the server ..", "At least you're not on hold ..", "I'm testing your patience ..", "A few bits tried to escape, but we caught them ..", "The bits are flowing slowly today ..", "The architects are still drafting ..", "The bits are still breeding ..", "And dream of faster computers ..", "Would you like fries with that? ..", "The server is powered by a lemon and two electrodes ..", "Waiting for satellite moves into position .."];
         return arr[Math.floor(Math.random() * arr.length)];
     }
 });
