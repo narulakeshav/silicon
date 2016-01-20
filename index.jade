@@ -26,32 +26,15 @@ html
         // MY CSS FILE
         link(rel='stylesheet', href='scss/design.css')
     body
-        div.col-md-12.intro.wow.fadeOutRight(data-wow-delay="2.7s", align="center")
+        div.col-md-12.intro.wow.bounceOutRight(data-wow-delay="2.7s", align="center")
             img.img-responsive.intro-img.wow.fadeInDown(src="nyt.png", data-wow-delay="0.2s")
             p.intro-text.wow.fadeInUp(data-wow-delay="0.3s") Silicon
             p.intro-loading.wow.fadeInUp(data-wow-delay="0.6s")
                 span.fa.fa-spinner.fa-spin
-                | &nbsp;&nbsp;Setting up the News Feed ...
+                | &nbsp;&nbsp;Preparing some cheesecake
         div.col-md-12.wow.fadeIn(data-wow-delay="2s")
             div.row
-                div.col-md-1.sidebar
-                    img.img-responsive.nyt-logo.img-circle(src="nyt.png")
-                    hr
-                    a.btn.options#hot.select
-                        span.material-icons whatshot
-                    a.btn.options#top
-                        span.material-icons timeline
-                    hr
-                    a.btn.options#tech
-                        span.material-icons cast
-                    a.btn.options#business
-                        span.material-icons business
-                    a.btn.options#politics
-                        span.material-icons account_balance
-                    a.btn.options#world
-                        span.material-icons public
-                    a.btn.options#sports
-                        span.material-icons directions_bike
+                div.col-md-1
                 div.col-md-11.content
                     div.col-md-12.result-tab
                         form
@@ -66,7 +49,24 @@ html
                         
         button.btn.btn-kn
             span.fa.fa-clone
-                            
+        div.col-md-1.sidebar
+            img.img-responsive.nyt-logo.img-circle(src="nyt.png")
+            hr
+            a.btn.options.top-select#hot
+                span.material-icons whatshot
+            a.btn.options#top
+                span.material-icons timeline
+            hr
+            a.btn.options#tech
+                span.material-icons cast
+            a.btn.options#business
+                span.material-icons business
+            a.btn.options#politics
+                span.material-icons account_balance
+            a.btn.options#world
+                span.material-icons public
+            a.btn.options#sports
+                span.material-icons directions_bike
 
         // JAVASCRIPT CDNs
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
