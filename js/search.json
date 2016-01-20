@@ -1,0 +1,1127 @@
+{
+    "response":{
+        "meta":{
+            "hits":12099,
+            "time":33,
+            "offset":0
+        },
+        "docs":[
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/21\/us\/politics\/sarah-palin-endorsement-speech-donald-trump.html",
+                "snippet":"Mrs. Palin returned to the campaign trail with her rousing speech in support of Donald J. Trump. But some of her expressions left the audience puzzled.",
+                "lead_paragraph":"Mrs. Palin returned to the campaign trail with her rousing speech in support of Donald J. Trump. But some of her expressions left the audience puzzled.",
+                "abstract":null,
+                "print_page":null,
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/21\/us\/politics\/21palinlistweb\/21palinlistweb-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/21\/us\/politics\/21palinlistweb\/21palinlistweb-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/21\/us\/politics\/21palinlistweb\/21palinlistweb-articleLarge.jpg",
+                        "height":416,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/21\/us\/politics\/21palinlistweb\/21palinlistweb-articleLarge.jpg",
+                            "xlargeheight":"416"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/21\/us\/politics\/21palinlistweb\/21palinlistweb-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/21\/us\/politics\/21palinlistweb\/21palinlistweb-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"The Most Mystifying Lines of Sarah Palin\u2019s Endorsement Speech"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Palin, Sarah"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Speeches and Statements"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"5",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Endorsements"
+                    },
+                    {
+                        "rank":"6",
+                        "is_major":"N",
+                        "name":"glocations",
+                        "value":"Ames (Iowa)"
+                    },
+                    {
+                        "rank":"7",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"Republican Party"
+                    }
+                ],
+                "pub_date":"2016-01-21T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"National",
+                "section_name":"U.S.",
+                "subsection_name":"Politics",
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Michael",
+                            "rank":1,
+                            "lastname":"BARBARO"
+                        }
+                    ],
+                    "original":"By MICHAEL BARBARO"
+                },
+                "type_of_material":"News",
+                "_id":"569f8f7e38f0d85519ba7cd1",
+                "word_count":"730",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/17\/opinion\/sunday\/donald-trumps-existential-pickle.html",
+                "snippet":"The egomaniacal billionaire has something on the line in Iowa that no other Republican does.",
+                "lead_paragraph":"The egomaniacal billionaire has something on the line in Iowa that no other Republican does.",
+                "abstract":null,
+                "print_page":"3",
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/17\/opinion\/sunday\/17bruni\/17bruni-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/17\/opinion\/sunday\/17bruni\/17bruni-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/17\/opinion\/sunday\/17bruni\/17bruni-articleLarge.jpg",
+                        "height":832,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/17\/opinion\/sunday\/17bruni\/17bruni-articleLarge.jpg",
+                            "xlargeheight":"832"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/17\/opinion\/sunday\/17bruni\/17bruni-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/17\/opinion\/sunday\/17bruni\/17bruni-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"Donald Trump\u2019s Existential Pickle",
+                    "content_kicker":"Op-Ed Columnist",
+                    "kicker":"Op-Ed Columnist",
+                    "print_headline":"Donald Trump\u2019s Existential Pickle"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Primaries and Caucuses"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"N",
+                        "name":"glocations",
+                        "value":"Iowa"
+                    },
+                    {
+                        "rank":"5",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Polls and Public Opinion"
+                    },
+                    {
+                        "rank":"6",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"New York Times"
+                    }
+                ],
+                "pub_date":"2016-01-17T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"OpEd",
+                "section_name":"Opinion",
+                "subsection_name":"Sunday Review",
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Frank",
+                            "rank":1,
+                            "lastname":"BRUNI"
+                        }
+                    ],
+                    "original":"By FRANK BRUNI"
+                },
+                "type_of_material":"Op-Ed",
+                "_id":"569a9a4538f0d80d6e341fbd",
+                "word_count":"1090",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/17\/business\/what-donald-trumps-plaza-deal-reveals-about-his-white-house-bid.html",
+                "snippet":"The mogul\u2019s purchase of the Plaza Hotel in 1988 offers insight into the methods and thinking of a deal maker turned presidential candidate.",
+                "lead_paragraph":"The mogul\u2019s purchase of the Plaza Hotel in 1988 offers insight into the methods and thinking of a deal maker turned presidential candidate.",
+                "abstract":null,
+                "print_page":"1",
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/17\/business\/17TRUMPLAZA1\/17TRUMPLAZA1-thumbWide-v2.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/17\/business\/17TRUMPLAZA1\/17TRUMPLAZA1-thumbWide-v2.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/17\/business\/17TRUMPLAZA1\/17TRUMPLAZA1-articleLarge.jpg",
+                        "height":687,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/17\/business\/17TRUMPLAZA1\/17TRUMPLAZA1-articleLarge.jpg",
+                            "xlargeheight":"687"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/17\/business\/17TRUMPLAZA1\/17TRUMPLAZA1-thumbStandard-v2.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/17\/business\/17TRUMPLAZA1\/17TRUMPLAZA1-thumbStandard-v2.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"What Donald Trump\u2019s Plaza Deal Reveals About His White House Bid",
+                    "print_headline":"The Trophy He Couldn\u2019t Keep"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"Plaza Hotel (Manhattan, NY)"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Real Estate (Commercial)"
+                    }
+                ],
+                "pub_date":"2016-01-17T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"SundayBusiness",
+                "section_name":"Business Day",
+                "subsection_name":null,
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"David",
+                            "rank":1,
+                            "lastname":"SEGAL"
+                        }
+                    ],
+                    "original":"By DAVID SEGAL"
+                },
+                "type_of_material":"News",
+                "_id":"569a22de38f0d86a572ec214",
+                "word_count":"3185",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/18\/opinion\/campaign-stops\/the-gospel-according-to-trump.html",
+                "snippet":"To him, if you\u2019re not a mainline Protestant, you\u2019re exotic, even sinister.",
+                "lead_paragraph":"To him, if you\u2019re not a mainline Protestant, you\u2019re exotic, even sinister.",
+                "abstract":"Op-Ed article by political writer McKay Coppins condemns Donald J Trump for sowing religious intolerance, saying it is part of  effort to leverage fear and division into voter support; holds that by attacking minority faiths, Trump is selling impossibly dated and nostalgic view of America to white working class voters who are fearful of future.",
+                "print_page":"21",
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/18\/opinion\/18coppinsWeb\/18coppinsWeb-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/18\/opinion\/18coppinsWeb\/18coppinsWeb-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/18\/opinion\/18coppinsWeb\/18coppinsWeb-articleLarge.jpg",
+                        "height":400,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/18\/opinion\/18coppinsWeb\/18coppinsWeb-articleLarge.jpg",
+                            "xlargeheight":"400"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/18\/opinion\/18coppinsWeb\/18coppinsWeb-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/18\/opinion\/18coppinsWeb\/18coppinsWeb-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"The Gospel According to Trump",
+                    "content_kicker":"Op-Ed Contributor",
+                    "kicker":"Op-Ed Contributor",
+                    "print_headline":"The Gospel According to Trump"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"Y",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Religion and Belief"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Discrimination"
+                    },
+                    {
+                        "rank":"5",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"Republican Jewish Coalition"
+                    },
+                    {
+                        "rank":"6",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Christians and Christianity"
+                    },
+                    {
+                        "rank":"7",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Protestant Churches"
+                    },
+                    {
+                        "rank":"8",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"United States Politics and Government"
+                    }
+                ],
+                "pub_date":"2016-01-18T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"OpEd",
+                "section_name":"Opinion",
+                "subsection_name":"Campaign Stops",
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Mckay",
+                            "rank":1,
+                            "lastname":"COPPINS"
+                        }
+                    ],
+                    "original":"By MCKAY COPPINS"
+                },
+                "type_of_material":"Op-Ed",
+                "_id":"569ca07c38f0d821e003ce94",
+                "word_count":"795",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2015\/12\/17\/world\/europe\/donald-trump-scotland-wind-farm.html",
+                "snippet":"The Supreme Court turned down an attempt by Mr. Trump to block the construction of turbines near his luxury golf resort in northeast Scotland.",
+                "lead_paragraph":"The Supreme Court turned down an attempt by Mr. Trump to block the construction of turbines near his luxury golf resort in northeast Scotland.",
+                "abstract":"British court denies Donald J Trump's bid to prohibit development of offshore wind farm near his Scottish golf resort; Trump official derides approval process for project, and claims it will be disastrous for local economy; resort itself overcame significant local opposition before opening in 2012. ",
+                "print_page":"11",
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2015\/12\/17\/world\/europe\/17Trumpgolf-web\/17Trumpgolf-web-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2015\/12\/17\/world\/europe\/17Trumpgolf-web\/17Trumpgolf-web-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2015\/12\/17\/world\/europe\/17Trumpgolf-web\/17Trumpgolf-web-articleLarge.jpg",
+                        "height":399,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2015\/12\/17\/world\/europe\/17Trumpgolf-web\/17Trumpgolf-web-articleLarge.jpg",
+                            "xlargeheight":"399"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2015\/12\/17\/world\/europe\/17Trumpgolf-web\/17Trumpgolf-web-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2015\/12\/17\/world\/europe\/17Trumpgolf-web\/17Trumpgolf-web-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"British Court Rejects Donald Trump\u2019s Attempt to Block Wind Farm",
+                    "print_headline":"Trump Loses Bid to Block Wind Farm Near Scottish Resort"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"Y",
+                        "name":"glocations",
+                        "value":"Scotland"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"Y",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Hotels and Travel Lodgings"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Wind Power"
+                    },
+                    {
+                        "rank":"5",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"Trump Organization"
+                    },
+                    {
+                        "rank":"6",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Golf"
+                    }
+                ],
+                "pub_date":"2015-12-17T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"Foreign",
+                "section_name":"World",
+                "subsection_name":"Europe",
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Sewell",
+                            "rank":1,
+                            "lastname":"CHAN"
+                        }
+                    ],
+                    "original":"By SEWELL CHAN"
+                },
+                "type_of_material":"News",
+                "_id":"567180d638f0d803bb110ed2",
+                "word_count":"468",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/19\/us\/politics\/evangelicals-see-donald-trump-as-man-of-conviction-if-not-faith.html",
+                "snippet":"Donald J. Trump might seem an odd fit among those who prize traditional religious values, yet polls increasingly show him leading the crowded Republican field among evangelical voters.",
+                "lead_paragraph":"Donald J. Trump might seem an odd fit among those who prize traditional religious values, yet polls increasingly show him leading the crowded Republican field among evangelical voters.",
+                "abstract":"Donald Trump, whose name is associated with luxury and who has spent most of his life pursuing wealth, has emerged as unlikely favorite among white evangelical Christian voters; extensive interviews show that evangelicals feel Trump has pure heart despite lack of overt faith, and that he is uniquely capable of leading country out of troubled times.  ",
+                "print_page":"1",
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/19\/us\/19TRUMPweb\/19TRUMPweb-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/19\/us\/19TRUMPweb\/19TRUMPweb-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/19\/us\/19TRUMPweb\/19TRUMPweb-articleLarge.jpg",
+                        "height":400,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/19\/us\/19TRUMPweb\/19TRUMPweb-articleLarge.jpg",
+                            "xlargeheight":"400"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/19\/us\/19TRUMPweb\/19TRUMPweb-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/19\/us\/19TRUMPweb\/19TRUMPweb-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"Evangelicals See Donald Trump as Man of Conviction, if Not Faith",
+                    "print_headline":"With Trump, Evangelicals Judging Not "
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Evangelical Movement"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"Y",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Polls and Public Opinion"
+                    },
+                    {
+                        "rank":"5",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"Republican Party"
+                    }
+                ],
+                "pub_date":"2016-01-19T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"National",
+                "section_name":"U.S.",
+                "subsection_name":"Politics",
+                "byline":{
+                    "contributor":"Nick Corasaniti and Marina Stefan contributed reporting.",
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Maggie",
+                            "rank":1,
+                            "lastname":"HABERMAN"
+                        },
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Thomas",
+                            "rank":2,
+                            "lastname":"KAPLAN"
+                        }
+                    ],
+                    "original":"By MAGGIE HABERMAN and THOMAS KAPLAN"
+                },
+                "type_of_material":"News",
+                "_id":"569d194438f0d821e003cfb4",
+                "word_count":"1349",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2016\/01\/15\/donald-trump\/",
+                "snippet":"As Donald J. Trump visited a Pizza Ranch restaurant here on Friday, a New York Times reporter was ejected by Trump staff members and a local police officer.",
+                "lead_paragraph":null,
+                "abstract":"As Donald J. Trump visited a Pizza Ranch restaurant here on Friday, a New York Times reporter was ejected by Trump staff members and a local police officer.",
+                "print_page":null,
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/15\/us\/15firstdraft-trumpiowa\/15firstdraft-trumpiowa-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/15\/us\/15firstdraft-trumpiowa\/15firstdraft-trumpiowa-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/15\/us\/15firstdraft-trumpiowa\/15firstdraft-trumpiowa-articleLarge.jpg",
+                        "height":400,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/15\/us\/15firstdraft-trumpiowa\/15firstdraft-trumpiowa-articleLarge.jpg",
+                            "xlargeheight":"400"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/15\/us\/15firstdraft-trumpiowa\/15firstdraft-trumpiowa-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/15\/us\/15firstdraft-trumpiowa\/15firstdraft-trumpiowa-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"How I Got Ejected From a Donald Trump Event",
+                    "kicker":"First Draft"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"1",
+                        "name":"glocations",
+                        "value":"Iowa"
+                    },
+                    {
+                        "rank":"1",
+                        "name":"organizations",
+                        "value":"Des Moines Register"
+                    },
+                    {
+                        "rank":"2",
+                        "name":"organizations",
+                        "value":"New York Times"
+                    },
+                    {
+                        "rank":"1",
+                        "name":"subject",
+                        "value":"Newspapers"
+                    },
+                    {
+                        "rank":"2",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    }
+                ],
+                "pub_date":"2016-01-15T14:18:56Z",
+                "document_type":"blogpost",
+                "news_desk":"Politics",
+                "section_name":"U.S.",
+                "subsection_name":"Politics",
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Trip",
+                            "rank":1,
+                            "lastname":"GABRIEL"
+                        }
+                    ],
+                    "original":"By TRIP GABRIEL"
+                },
+                "type_of_material":"Blog",
+                "_id":"5699464538f0d86a572ebffe",
+                "word_count":"428",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/14\/us\/politics\/donald-trumps-iowa-ground-game-seems-to-be-missing-a-coach.html",
+                "snippet":"Mr. Trump may well win the caucuses, but if he does, it will probably be in spite of his organizing team, which is still committing basic organizing errors.",
+                "lead_paragraph":"Mr. Trump may well win the caucuses, but if he does, it will probably be in spite of his organizing team, which is still committing basic organizing errors.",
+                "abstract":"Donald J Trump's organizing team in Iowa is carrying out slipshod effort in comparison to other candidates, giving impression that his ground game there is afterthought; Trump's apparent strategy of leveraging his charisma to motivate voters may backfire in state where field teams are often necessary to motivate caucus-goers.",
+                "print_page":"19",
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/14\/us\/14TRUMPweb1\/14TRUMPweb1-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/14\/us\/14TRUMPweb1\/14TRUMPweb1-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/14\/us\/14TRUMPweb1\/14TRUMPweb1-articleLarge.jpg",
+                        "height":400,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/14\/us\/14TRUMPweb1\/14TRUMPweb1-articleLarge.jpg",
+                            "xlargeheight":"400"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/14\/us\/14TRUMPweb1\/14TRUMPweb1-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/14\/us\/14TRUMPweb1\/14TRUMPweb1-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"Donald Trump\u2019s Iowa Ground Game Seems to Be Missing a Coach",
+                    "print_headline":"Trump Ground Game in Iowa Lacks a Coach"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"Y",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"Y",
+                        "name":"glocations",
+                        "value":"Iowa"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Primaries and Caucuses"
+                    },
+                    {
+                        "rank":"5",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Voter Registration and Requirements"
+                    },
+                    {
+                        "rank":"6",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"Republican Party"
+                    }
+                ],
+                "pub_date":"2016-01-14T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"National",
+                "section_name":"U.S.",
+                "subsection_name":"Politics",
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Trip",
+                            "rank":1,
+                            "lastname":"GABRIEL"
+                        }
+                    ],
+                    "original":"By TRIP GABRIEL"
+                },
+                "type_of_material":"News",
+                "_id":"5696a59c38f0d865e6c3487e",
+                "word_count":"1306",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/19\/opinion\/time-for-a-republican-conspiracy.html",
+                "snippet":"Reality-based conservatives should mobilize against the hijacking of our party.",
+                "lead_paragraph":"Reality-based conservatives should mobilize against the hijacking of our party.",
+                "abstract":"David Brooks Op-Ed column calls on Republican lawmakers and party leaders to band together to avert disastrous possibility of presidency, or even nomination, of Donald Trump or Sen Ted Cruz; suggests grass-roots movement advocating governing conservatism.",
+                "print_page":"27",
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2014\/11\/01\/opinion\/brooks-circular\/brooks-circular-thumbWide-v2.png",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2014\/11\/01\/opinion\/brooks-circular\/brooks-circular-thumbWide-v2.png",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2014\/11\/01\/opinion\/brooks-circular\/brooks-circular-thumbStandard-v2.png",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2014\/11\/01\/opinion\/brooks-circular\/brooks-circular-thumbStandard-v2.png",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"Time for a Republican Conspiracy!",
+                    "content_kicker":"Op-Ed Columnist",
+                    "kicker":"Op-Ed Columnist",
+                    "print_headline":"Time for a Conspiracy!"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"Y",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"Y",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"Y",
+                        "name":"persons",
+                        "value":"Cruz, Ted"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"N",
+                        "name":"organizations",
+                        "value":"Republican Party"
+                    }
+                ],
+                "pub_date":"2016-01-19T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"OpEd",
+                "section_name":"Opinion",
+                "subsection_name":null,
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"David",
+                            "rank":1,
+                            "lastname":"BROOKS"
+                        }
+                    ],
+                    "original":"By DAVID BROOKS"
+                },
+                "type_of_material":"Op-Ed",
+                "_id":"569df1f338f0d8386437a4ea",
+                "word_count":"796",
+                "slideshow_credits":null
+            },
+            {
+                "web_url":"http:\/\/www.nytimes.com\/2016\/01\/21\/us\/politics\/90s-scandals-threaten-to-erode-hillary-clintons-strength-with-women.html",
+                "snippet":"Women are struggling to reconcile Mrs. Clinton\u2019s championing of women\u2019s issues with reports of her previous efforts to undercut those who accused her husband of sexual misconduct.",
+                "lead_paragraph":"Women are struggling to reconcile Mrs. Clinton\u2019s championing of women\u2019s issues with reports of her previous efforts to undercut those who accused her husband of sexual misconduct.",
+                "abstract":null,
+                "print_page":null,
+                "blog":[
+
+                ],
+                "source":"The New York Times",
+                "multimedia":[
+                    {
+                        "width":190,
+                        "url":"images\/2016\/01\/20\/us\/20DEMWOMENweb1\/20DEMWOMENweb1-thumbWide.jpg",
+                        "height":126,
+                        "subtype":"wide",
+                        "legacy":{
+                            "wide":"images\/2016\/01\/20\/us\/20DEMWOMENweb1\/20DEMWOMENweb1-thumbWide.jpg",
+                            "wideheight":"126",
+                            "widewidth":"190"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":600,
+                        "url":"images\/2016\/01\/20\/us\/20DEMWOMENweb1\/20DEMWOMENweb1-articleLarge.jpg",
+                        "height":400,
+                        "subtype":"xlarge",
+                        "legacy":{
+                            "xlargewidth":"600",
+                            "xlarge":"images\/2016\/01\/20\/us\/20DEMWOMENweb1\/20DEMWOMENweb1-articleLarge.jpg",
+                            "xlargeheight":"400"
+                        },
+                        "type":"image"
+                    },
+                    {
+                        "width":75,
+                        "url":"images\/2016\/01\/20\/us\/20DEMWOMENweb1\/20DEMWOMENweb1-thumbStandard.jpg",
+                        "height":75,
+                        "subtype":"thumbnail",
+                        "legacy":{
+                            "thumbnailheight":"75",
+                            "thumbnail":"images\/2016\/01\/20\/us\/20DEMWOMENweb1\/20DEMWOMENweb1-thumbStandard.jpg",
+                            "thumbnailwidth":"75"
+                        },
+                        "type":"image"
+                    }
+                ],
+                "headline":{
+                    "main":"\u201990s Scandals Threaten to Erode Hillary Clinton\u2019s Strength With Women"
+                },
+                "keywords":[
+                    {
+                        "rank":"1",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Presidential Election of 2016"
+                    },
+                    {
+                        "rank":"2",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Women and Girls"
+                    },
+                    {
+                        "rank":"3",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Women's Rights"
+                    },
+                    {
+                        "rank":"4",
+                        "is_major":"N",
+                        "name":"subject",
+                        "value":"Sexual Harassment"
+                    },
+                    {
+                        "rank":"5",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Clinton, Bill"
+                    },
+                    {
+                        "rank":"6",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Clinton, Hillary Rodham"
+                    },
+                    {
+                        "rank":"7",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Dunham, Lena"
+                    },
+                    {
+                        "rank":"8",
+                        "is_major":"N",
+                        "name":"persons",
+                        "value":"Trump, Donald J"
+                    }
+                ],
+                "pub_date":"2016-01-21T00:00:00Z",
+                "document_type":"article",
+                "news_desk":"National",
+                "section_name":"U.S.",
+                "subsection_name":"Politics",
+                "byline":{
+                    "person":[
+                        {
+                            "organization":"",
+                            "role":"reported",
+                            "firstname":"Amy",
+                            "rank":1,
+                            "lastname":"CHOZICK"
+                        }
+                    ],
+                    "original":"By AMY CHOZICK"
+                },
+                "type_of_material":"News",
+                "_id":"569f5ad138f0d85519ba7c31",
+                "word_count":"1698",
+                "slideshow_credits":null
+            }
+        ]
+    },
+    "status":"OK",
+    "copyright":"Copyright (c) 2013 The New York Times Company.  All Rights Reserved."
+}
