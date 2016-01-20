@@ -180,7 +180,7 @@ $(document).ready(function() {
         if(!first) {
             mainDivToAppendTo.innerHTML = null;
             $.getJSON(url, function(api) {
-                if(url == popularURL) numberOfPosts.innerHTML = "20 Results";
+                numberOfPosts.innerHTML = api["num_results"] + " Results";
                 api.results.forEach(function(data) {
                     link = data.url;
                     cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
