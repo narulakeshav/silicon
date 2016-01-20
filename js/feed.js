@@ -17,12 +17,6 @@ $(document).ready(function() {
     var topStoriesAPI = "dbedf6c902da5f3bcd66b13a15d45689%3A2%3A74061741";
     var topStoriesURL = "http://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + topStoriesAPI;
 
-    // HIDING THE INTRO DIV IN 4.6 SECONDS
-    var hideDiv = setTimeout(hideIntro, 3400);
-    function hideIntro() {
-        $(".intro").addClass("hideDiv");
-    }
-
     "use strict";
     var d = document;
     var mainDivToAppendTo = d.getElementById("feed");
@@ -32,6 +26,7 @@ $(document).ready(function() {
     var viewing = d.getElementById("view-type");
     var imgSource  = "";
     var link = "";
+    var loadMessage = d.getElementById("load-message");
 
     // GETTING THE BUTTON ELEMENTS
     var hotNews = d.getElementById("hot");
@@ -41,6 +36,15 @@ $(document).ready(function() {
     var politicsNews = d.getElementById("politics");
     var worldNews = d.getElementById("world");
     var sportsNews = d.getElementById("sports");
+
+    // DISPLAYING RANDOM LOAD MESSAGE
+    loadMessage.innerHTML = randomLoadMessage();
+
+    // HIDING THE INTRO DIV IN 4.6 SECONDS
+    var hideDiv = setTimeout(hideIntro, 3400);
+    function hideIntro() {
+        $(".intro").addClass("hideDiv");
+    }
 
     // DISPLAYS MOST POPULAR NEWS
     hotNews.onclick = function() {
@@ -191,5 +195,11 @@ $(document).ready(function() {
                 });
             });
         }
+    }
+
+    // DISPLAYS FUNNY/RANDOM MESSAGES IN LOAD
+    function randomLoadMessage() {
+        var arr = ["Shovelling coal into the server ..", "At least you're not on hold ..", "I'm testing your patience ..", "A few bits tried to escape, but we caught them ..", "The bits are flowing slowly today ..", "The architects are still drafting ..", "The bits are still breeding ..", "And dream of faster computers ..", "would you like fries with that? ..", "The server is powered by a lemon and two electrodes ..", "Waiting for satellite moves into position .."];
+        return arr[Math.floor(Math.random() * arr.length)];
     }
 });
