@@ -2,6 +2,7 @@ doctype html
 html
     head
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(charset="UTF-8")
 
         // Favicon and Title
         title#page-title Silicon - Top NYT Stories
@@ -33,7 +34,7 @@ html
                     a.btn.options.hot.select
                         span.material-icons whatshot
                     a.btn.options
-                        span.material-icons equalizer
+                        span.material-icons timeline
                     hr
                     a.btn.options#tech
                         span.material-icons cast
@@ -52,14 +53,11 @@ html
                             input.form-control(id="input", placeholder="Search for articles, headlines, etc.")
                         hr.line
                         p#viewing Viewing: 
-                            span#result-num 847 Results
+                            span#view-type Most Popular
+                            | &nbsp;&nbsp;|&nbsp;&nbsp; 
+                            span#result-num 20 Results
                     div.col-md-12#feed
-                            div.col-md-4
-                                div.col-md-12.card
-                                    a(href="#")
-                                        img.img-responsive#img-card(src="img-card.jpg")
-                                        p#card-title When a Unicorn Start-Up Stumbles, Its Employees Get Hurt
-                                        p#post-by By JOE CLARKSON
+                        
         button.btn.btn-kn
             span.fa.fa-clone
                             
