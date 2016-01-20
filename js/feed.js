@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    // WOW JS
+    new WOW().init();
+
     /* API KEYS*/
     // SEARCH API KEY & URL
     "use strict";
@@ -14,7 +17,11 @@ $(document).ready(function() {
     var topStoriesAPI = "dbedf6c902da5f3bcd66b13a15d45689%3A2%3A74061741";
     var topStoriesURL = "http://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + topStoriesAPI;
 
-    // CALLING THE MAIN FUNCTION
+    // HIDING THE INTRO DIV IN 4.6 SECONDS
+    var hideDiv = setTimeout(hideIntro, 3200);
+    function hideIntro() {
+        $(".intro").addClass("hideDiv");
+    }
     
 
     "use strict";
