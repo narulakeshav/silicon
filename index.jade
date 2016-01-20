@@ -26,7 +26,13 @@ html
         // MY CSS FILE
         link(rel='stylesheet', href='scss/design.css')
     body
-        div.col-md-12
+        div.col-md-12.intro.wow.fadeOutRight(data-wow-delay="2.7s", align="center")
+            img.img-responsive.intro-img.wow.fadeInDown(src="nyt.png", data-wow-delay="0.2s")
+            p.intro-text.wow.fadeInUp(data-wow-delay="0.3s") Silicon
+            p.intro-loading.wow.fadeInUp(data-wow-delay="0.6s")
+                span.fa.fa-spinner.fa-spin
+                | &nbsp;&nbsp;Setting up the News Feed ...
+        div.col-md-12.wow.fadeIn(data-wow-delay="2s")
             div.row
                 div.col-md-1.sidebar
                     img.img-responsive.nyt-logo.img-circle(src="nyt.png")
