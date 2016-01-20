@@ -1,0 +1,1496 @@
+{
+    "status":"OK",
+    "copyright":"Copyright (c) 2016 The New York Times Company. All Rights Reserved.",
+    "section":"home",
+    "last_updated":"2016-01-19T22:42:01-05:00",
+    "num_results":21,
+    "results":[
+        {
+            "section":"U.S.",
+            "subsection":"",
+            "title":"Governor Pledges to Fix Water Crisis in Michigan",
+            "abstract":"Gov. Rick Snyder of Michigan was uncharacteristically contrite and emphatic. \u201cI\u2019m sorry most of all that I let you down,\u201d he said, citing repeated missteps in failing to identify lead in the drinking water.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/us\/obama-set-to-meet-with-mayor-of-flint-about-water-crisis.html",
+            "byline":"By JULIE BOSMAN and MITCH SMITH",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T20:16:01-5:00",
+            "created_date":"2016-01-19T17:00:12-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Water",
+                "Hazardous and Toxic Substances"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "Obama, Barack",
+                "Snyder, Richard Dale",
+                "Clinton, Hillary Rodham"
+            ],
+            "geo_facet":[
+                "Flint (Mich)",
+                "Lake Huron",
+                "Michigan"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20michigan-web\/20michigan-web-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Specialist Eric Perrigan of the Michigan National Guard loaded a case of canned water for a Flint resident on Friday.",
+                    "copyright":"Brittany Greeson for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20michigan-web\/20michigan-web-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Specialist Eric Perrigan of the Michigan National Guard loaded a case of canned water for a Flint resident on Friday.",
+                    "copyright":"Brittany Greeson for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20michigan-web\/20michigan-web-articleInline.jpg",
+                    "format":"Normal",
+                    "height":127,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Specialist Eric Perrigan of the Michigan National Guard loaded a case of canned water for a Flint resident on Friday.",
+                    "copyright":"Brittany Greeson for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20michigan-web\/20michigan-web-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Specialist Eric Perrigan of the Michigan National Guard loaded a case of canned water for a Flint resident on Friday.",
+                    "copyright":"Brittany Greeson for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20michigan-web\/20michigan-web-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1365,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Specialist Eric Perrigan of the Michigan National Guard loaded a case of canned water for a Flint resident on Friday.",
+                    "copyright":"Brittany Greeson for The New York Times"
+                }
+            ]
+        },
+        {
+            "section":"Health",
+            "subsection":"",
+            "title":"C.D.C. Urges Zika Testing for Some Who Are Pregnant",
+            "abstract":"The guidelines, though seen as imperfect, offer a way to proceed with worried patients who have recently lived in or traveled to an area where the mosquito-borne virus is being transmitted.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/health\/cdc-urges-zika-testing-for-some-who-are-pregnant.html",
+            "byline":"By DONALD G. McNEIL Jr.",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T20:51:26-5:00",
+            "created_date":"2016-01-19T20:51:33-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Birth Defects",
+                "Tests (Medical)",
+                "Viruses",
+                "Pregnancy and Childbirth",
+                "Zika",
+                "Mosquitoes"
+            ],
+            "org_facet":[
+                "Centers for Disease Control and Prevention"
+            ],
+            "per_facet":"",
+            "geo_facet":[
+                "Brazil"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/science\/20ZIKA3-1453244427307\/20ZIKA3-1453244427307-thumbStandard-v2.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A researcher at S\u00e3o Paulo University in Brazil holds a container of Aedes aegypti mosquitoes, which can spread the Zika virus. On Tuesday, the C.D.C. issued guidelines for pregnant women who have visited countries where the virus is spreading.",
+                    "copyright":"Andre Penner\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/science\/20ZIKA3-1453244427307\/20ZIKA3-1453244427307-thumbLarge-v2.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A researcher at S\u00e3o Paulo University in Brazil holds a container of Aedes aegypti mosquitoes, which can spread the Zika virus. On Tuesday, the C.D.C. issued guidelines for pregnant women who have visited countries where the virus is spreading.",
+                    "copyright":"Andre Penner\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/science\/20ZIKA3-1453244427307\/20ZIKA-1453244427307-articleInline.jpg",
+                    "format":"Normal",
+                    "height":130,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A researcher at S\u00e3o Paulo University in Brazil holds a container of Aedes aegypti mosquitoes, which can spread the Zika virus. On Tuesday, the C.D.C. issued guidelines for pregnant women who have visited countries where the virus is spreading.",
+                    "copyright":"Andre Penner\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/science\/20ZIKA3-1453244427307\/20ZIKA3-1453244427307-mediumThreeByTwo210-v2.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A researcher at S\u00e3o Paulo University in Brazil holds a container of Aedes aegypti mosquitoes, which can spread the Zika virus. On Tuesday, the C.D.C. issued guidelines for pregnant women who have visited countries where the virus is spreading.",
+                    "copyright":"Andre Penner\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/science\/20ZIKA3-1453244427307\/20ZIKA-1453244427307-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1403,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A researcher at S\u00e3o Paulo University in Brazil holds a container of Aedes aegypti mosquitoes, which can spread the Zika virus. On Tuesday, the C.D.C. issued guidelines for pregnant women who have visited countries where the virus is spreading.",
+                    "copyright":"Andre Penner\/Associated Press"
+                }
+            ]
+        },
+        {
+            "section":"World",
+            "subsection":"Middle East",
+            "title":"ISIS Magazine Confirms \u2018Jihadi John\u2019 Was Killed",
+            "abstract":"The most recent issue of the militant group\u2019s online publication, Dabiq, included a eulogy for Mohammed Emwazi, a British citizen.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/world\/middleeast\/isis-magazine-confirms-jihadi-john-was-killed.html",
+            "byline":"By ASHLEY SOUTHALL",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T20:50:13-5:00",
+            "created_date":"2016-01-19T17:20:56-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Terrorism",
+                "Magazines"
+            ],
+            "org_facet":[
+                "Islamic State in Iraq and Syria (ISIS)"
+            ],
+            "per_facet":[
+                "Emwazi, Mohammed"
+            ],
+            "geo_facet":[
+                "Great Britain"
+            ],
+            "multimedia":""
+        },
+        {
+            "section":"N.Y. \/ Region",
+            "subsection":"",
+            "title":"Prominent Doctor at Mt. Sinai Charged With Sexual Abuse",
+            "abstract":"An emergency room doctor at Mount Sinai Hospital on the Upper East Side was arrested and accused of drugging, groping and masturbating on a female patient and groping another.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/nyregion\/er-doctor-at-mt-sinai-hospital-charged-with-sexual-abuse-of-2-patients.html",
+            "byline":"By BENJAMIN MUELLER",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T20:32:44-5:00",
+            "created_date":"2016-01-19T20:32:51-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Emergency Medical Treatment",
+                "Hospitals",
+                "Sex Crimes"
+            ],
+            "org_facet":[
+                "Mount Sinai Medical Center"
+            ],
+            "per_facet":[
+                "Dr. David H. Newman"
+            ],
+            "geo_facet":[
+                "Manhattan (NYC)"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20ASSAULT\/20ASSAULT-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Dr. David H. Newman, who was arrested on Tuesday and accused of groping two patients at Mount Sinai Hospital in separate episodes several months apart.",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20ASSAULT\/20ASSAULT-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Dr. David H. Newman, who was arrested on Tuesday and accused of groping two patients at Mount Sinai Hospital in separate episodes several months apart.",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20ASSAULT\/20ASSAULT-articleInline.jpg",
+                    "format":"Normal",
+                    "height":249,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Dr. David H. Newman, who was arrested on Tuesday and accused of groping two patients at Mount Sinai Hospital in separate episodes several months apart.",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20ASSAULT\/20ASSAULT-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Dr. David H. Newman, who was arrested on Tuesday and accused of groping two patients at Mount Sinai Hospital in separate episodes several months apart.",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20ASSAULT\/20ASSAULT-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":327,
+                    "width":250,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Dr. David H. Newman, who was arrested on Tuesday and accused of groping two patients at Mount Sinai Hospital in separate episodes several months apart.",
+                    "copyright":""
+                }
+            ]
+        },
+        {
+            "section":"U.S.",
+            "subsection":"Politics",
+            "title":"Palin Endorses Trump in Iowa Speech",
+            "abstract":"With the caucuses less than two weeks away, Sarah Palin, the 2008 vice-presidential nominee, could help Donald Trump with evangelicals and the Tea Party.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/us\/politics\/donald-trump-sarah-palin.html",
+            "byline":"By ALAN RAPPEPORT and MAGGIE HABERMAN",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T21:07:58-5:00",
+            "created_date":"2016-01-19T16:10:38-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Presidential Election of 2016"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "Palin, Sarah",
+                "Trump, Donald J"
+            ],
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20trump-hp\/20trump-hp-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Donald J. Trump and Sarah Palin at a campaign event in Ames, Iowa, on Tuesday.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20trump-hp\/20trump-hp-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Donald J. Trump and Sarah Palin at a campaign event in Ames, Iowa, on Tuesday.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20trump-hp\/20trump-hp-articleInline.jpg",
+                    "format":"Normal",
+                    "height":127,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Donald J. Trump and Sarah Palin at a campaign event in Ames, Iowa, on Tuesday.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20trump-hp\/20trump-hp-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Donald J. Trump and Sarah Palin at a campaign event in Ames, Iowa, on Tuesday.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20trump-hp\/20trump-hp-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1365,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Donald J. Trump and Sarah Palin at a campaign event in Ames, Iowa, on Tuesday.",
+                    "copyright":"Eric Thayer for The New York Times"
+                }
+            ]
+        },
+        {
+            "section":"U.S.",
+            "subsection":"Politics",
+            "title":"Clinton Email Said to Have Material Above \u2018Top Secret\u2019",
+            "abstract":"A letter by the intelligence agencies&#8217; inspector general says that a review of emails on former Secretary of State Hillary Clinton&#8217;s private computer server found information that would place it among the government&#8217;s most closely guarded secrets.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/us\/politics\/hillary-clinton-email-said-to-include-material-exceeding-top-secret.html",
+            "byline":"By MARK MAZZETTI",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T22:35:27-5:00",
+            "created_date":"2016-01-19T22:35:30-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Classified Information and State Secrets",
+                "Espionage and Intelligence Services",
+                "Letters",
+                "E-Mail"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "Clinton, Hillary Rodham",
+                "McCullough, I Charles III"
+            ],
+            "geo_facet":"",
+            "multimedia":""
+        },
+        {
+            "section":"U.S.",
+            "subsection":"Politics",
+            "title":"Ta-Nehisi Coates Criticizes Sanders on Reparations",
+            "abstract":"Ta-Nehisi Coates, a National Book Award winner who often writes on racism, said Senator Bernie Sanders\u2019s argument that reparations could not make it through Congress could also be said about much of his platform.",
+            "url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2016\/01\/19\/ta-nehisi-coates-criticizes-bernie-sanders-over-his-opposition-to-reparations\/",
+            "byline":"By YAMICHE ALCINDOR",
+            "item_type":"Blogpost",
+            "updated_date":"2016-01-19T19:14:19-5:00",
+            "created_date":"2016-01-19T19:19:30-5:00",
+            "published_date":"2016-01-19T19:14:19-5:00",
+            "material_type_facet":"News",
+            "kicker":"First Draft",
+            "des_facet":"",
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Bernie2\/19firstdraft-Bernie2-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Senator Bernie Sanders at a minority-focused forum in Des Moines last week.",
+                    "copyright":"Fernando Leon\/Getty Images for Fusion"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Bernie2\/19firstdraft-Bernie2-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Senator Bernie Sanders at a minority-focused forum in Des Moines last week.",
+                    "copyright":"Fernando Leon\/Getty Images for Fusion"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Bernie2\/19firstdraft-Bernie2-articleInline.jpg",
+                    "format":"Normal",
+                    "height":119,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Senator Bernie Sanders at a minority-focused forum in Des Moines last week.",
+                    "copyright":"Fernando Leon\/Getty Images for Fusion"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Bernie2\/19firstdraft-Bernie2-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Senator Bernie Sanders at a minority-focused forum in Des Moines last week.",
+                    "copyright":"Fernando Leon\/Getty Images for Fusion"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Bernie2\/19firstdraft-Bernie2-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1284,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Senator Bernie Sanders at a minority-focused forum in Des Moines last week.",
+                    "copyright":"Fernando Leon\/Getty Images for Fusion"
+                }
+            ]
+        },
+        {
+            "section":"U.S.",
+            "subsection":"Politics",
+            "title":"Campaign Worker for Carson Is Killed in Car Accident",
+            "abstract":"A car accident in Iowa also injured two other Ben Carson volunteers and a campaign aide, leading the candidate to suspend campaigning on Tuesday.",
+            "url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2016\/01\/19\/campaign-worker-for-ben-carson-is-killed-in-car-accident\/",
+            "byline":"By FIRST DRAFT",
+            "item_type":"Blogpost",
+            "updated_date":"2016-01-19T21:29:34-5:00",
+            "created_date":"2016-01-19T14:57:37-5:00",
+            "published_date":"2016-01-19T14:56:02-5:00",
+            "material_type_facet":"News",
+            "kicker":"First Draft",
+            "des_facet":"",
+            "org_facet":"",
+            "per_facet":"",
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Carson\/19firstdraft-Carson-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ben Carson after the Republican presidential debate last week in North Charleston, S.C.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Carson\/19firstdraft-Carson-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ben Carson after the Republican presidential debate last week in North Charleston, S.C.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Carson\/19firstdraft-Carson-articleInline.jpg",
+                    "format":"Normal",
+                    "height":122,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ben Carson after the Republican presidential debate last week in North Charleston, S.C.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Carson\/19firstdraft-Carson-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ben Carson after the Republican presidential debate last week in North Charleston, S.C.",
+                    "copyright":"Eric Thayer for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/19firstdraft-Carson\/19firstdraft-Carson-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1320,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ben Carson after the Republican presidential debate last week in North Charleston, S.C.",
+                    "copyright":"Eric Thayer for The New York Times"
+                }
+            ]
+        },
+        {
+            "section":"World",
+            "subsection":"Asia Pacific",
+            "title":"A Deadly Deployment, a Navy SEAL\u2019s Despair",
+            "abstract":"Fellow officers saw the death of Cmdr. Job W. Price, which was ruled a suicide, as a cautionary tale of how men were ground down by years of fighting and losing comrades.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/world\/asia\/navy-seal-team-4-suicide.html",
+            "byline":"By NICHOLAS KULISH and CHRISTOPHER DREW",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T16:27:19-5:00",
+            "created_date":"2016-01-19T16:27:26-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Suicides and Suicide Attempts",
+                "Afghanistan War (2001-14)",
+                "United States Defense and Military Forces"
+            ],
+            "org_facet":[
+                "Navy Seals",
+                "United States Navy"
+            ],
+            "per_facet":[
+                "Price, Job W"
+            ],
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/world\/xxSUICIDE1\/xxSUICIDE1-thumbStandard-v2.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Cmdr. Job W. Price of the Navy SEALs",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/world\/xxSUICIDE1\/xxSUICIDE1-thumbLarge-v2.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Cmdr. Job W. Price of the Navy SEALs",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/world\/xxSUICIDE1\/xxSUICIDE1-articleInline-v2.jpg",
+                    "format":"Normal",
+                    "height":216,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Cmdr. Job W. Price of the Navy SEALs",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/world\/xxSUICIDE1\/xxSUICIDE1-mediumThreeByTwo210-v2.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Cmdr. Job W. Price of the Navy SEALs",
+                    "copyright":""
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/world\/xxSUICIDE1\/xxSUICIDE1-superJumbo-v2.jpg",
+                    "format":"superJumbo",
+                    "height":1726,
+                    "width":1518,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Cmdr. Job W. Price of the Navy SEALs",
+                    "copyright":""
+                }
+            ]
+        },
+        {
+            "section":"World",
+            "subsection":"Middle East",
+            "title":"Sanctions (and Sabotage) Helped Pressure Iran",
+            "abstract":"A U.S. covert sabotage program that began in the Clinton administration and escalated over the next 15 years played a critical role in persuading the Iranians to agree to a deal.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/world\/middleeast\/diplomacy-and-sanctions-yes-left-unspoken-on-iran-sabotage.html",
+            "byline":"By DAVID E. SANGER",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T21:02:14-5:00",
+            "created_date":"2016-01-19T21:02:21-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Nuclear Weapons",
+                "Embargoes and Sanctions",
+                "United States Politics and Government",
+                "United States International Relations",
+                "Diplomatic Service, Embassies and Consulates"
+            ],
+            "org_facet":[
+                "Central Intelligence Agency"
+            ],
+            "per_facet":[
+                "Obama, Barack",
+                "Zarif, Mohammad Javad",
+                "Kerry, John",
+                "Bush, George W",
+                "Khamenei, Ali"
+            ],
+            "geo_facet":[
+                "Iran"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20assess\/20assess-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"On Sunday, President Obama announced that Iran had freed five Iranian-American nationals, and that the United States and European nations had lifted oil and financial sanctions on Iran.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20assess\/20assess-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"On Sunday, President Obama announced that Iran had freed five Iranian-American nationals, and that the United States and European nations had lifted oil and financial sanctions on Iran.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20assess\/20assess-articleInline.jpg",
+                    "format":"Normal",
+                    "height":139,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"On Sunday, President Obama announced that Iran had freed five Iranian-American nationals, and that the United States and European nations had lifted oil and financial sanctions on Iran.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20assess\/20assess-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"On Sunday, President Obama announced that Iran had freed five Iranian-American nationals, and that the United States and European nations had lifted oil and financial sanctions on Iran.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/us\/20assess\/20assess-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1501,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"On Sunday, President Obama announced that Iran had freed five Iranian-American nationals, and that the United States and European nations had lifted oil and financial sanctions on Iran.",
+                    "copyright":"Doug Mills\/The New York Times"
+                }
+            ]
+        },
+        {
+            "section":"World",
+            "subsection":"Middle East",
+            "title":"Prisoner Swap Doesn\u2019t Mean Iran Gets Anyone",
+            "abstract":"Six of the seven freed by the United States are naturalized or native-born Americans with dual citizenship. Most, if not all, have no immediate plans to move to Iran.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/world\/middleeast\/prisoner-swap-with-iran-doesnt-necessarily-mean-iran-gets-anyone.html",
+            "byline":"By KAREN ZRAICK and RICK GLADSTONE",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T20:40:25-5:00",
+            "created_date":"2016-01-19T20:40:32-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Political Prisoners",
+                "Citizenship and Naturalization"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "Afghahi, Khosrow",
+                "Modanlo, Nader",
+                "Mechanic, Bahram"
+            ],
+            "geo_facet":[
+                "Iran",
+                "United States"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20release-web1\/20release-web1-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Khosrow Afghahi as he leaves Federal Detention Center Houston in Houston, Texas on Sunday.",
+                    "copyright":"Daniel Kramer\/Reuters"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20release-web1\/20release-web1-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Khosrow Afghahi as he leaves Federal Detention Center Houston in Houston, Texas on Sunday.",
+                    "copyright":"Daniel Kramer\/Reuters"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20release-web1\/20release-web1-articleInline.jpg",
+                    "format":"Normal",
+                    "height":127,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Khosrow Afghahi as he leaves Federal Detention Center Houston in Houston, Texas on Sunday.",
+                    "copyright":"Daniel Kramer\/Reuters"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20release-web1\/20release-web1-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Khosrow Afghahi as he leaves Federal Detention Center Houston in Houston, Texas on Sunday.",
+                    "copyright":"Daniel Kramer\/Reuters"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20release-web1\/20release-web1-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1365,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Khosrow Afghahi as he leaves Federal Detention Center Houston in Houston, Texas on Sunday.",
+                    "copyright":"Daniel Kramer\/Reuters"
+                }
+            ]
+        },
+        {
+            "section":"World",
+            "subsection":"Middle East",
+            "title":"Ayatollah Warns Against U.S. \u2018Deceptions\u2019",
+            "abstract":"In a letter to Iran\u2019s president, the supreme leader cautiously welcomed the completion of the nuclear deal and end to economic sanctions but said the United States breaks its promises.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/world\/middleeast\/ayatollah-ali-khamenei-iran.html",
+            "byline":"By THOMAS ERDBRINK",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T14:24:10-5:00",
+            "created_date":"2016-01-19T08:04:31-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "International Relations"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "Khamenei, Ali",
+                "Rouhani, Hassan"
+            ],
+            "geo_facet":[
+                "Iran",
+                "United States"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20Iran-web\/20Iran-web-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ayatollah Ali Khamenei, Iran\u2019s supreme leader, in Tehran in January. Throughout the prolonged negotiations over the nuclear agreement, he played both sides of the divide between reformers and hard-liners.",
+                    "copyright":"Office of Iranian Supreme Leader, via Agence France-Presse \u2014 Getty Images"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20Iran-web\/20Iran-web-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ayatollah Ali Khamenei, Iran\u2019s supreme leader, in Tehran in January. Throughout the prolonged negotiations over the nuclear agreement, he played both sides of the divide between reformers and hard-liners.",
+                    "copyright":"Office of Iranian Supreme Leader, via Agence France-Presse \u2014 Getty Images"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20Iran-web\/20Iran-web-articleInline.jpg",
+                    "format":"Normal",
+                    "height":127,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ayatollah Ali Khamenei, Iran\u2019s supreme leader, in Tehran in January. Throughout the prolonged negotiations over the nuclear agreement, he played both sides of the divide between reformers and hard-liners.",
+                    "copyright":"Office of Iranian Supreme Leader, via Agence France-Presse \u2014 Getty Images"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20Iran-web\/20Iran-web-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ayatollah Ali Khamenei, Iran\u2019s supreme leader, in Tehran in January. Throughout the prolonged negotiations over the nuclear agreement, he played both sides of the divide between reformers and hard-liners.",
+                    "copyright":"Office of Iranian Supreme Leader, via Agence France-Presse \u2014 Getty Images"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/world\/20Iran-web\/20Iran-web-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1333,
+                    "width":2000,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Ayatollah Ali Khamenei, Iran\u2019s supreme leader, in Tehran in January. Throughout the prolonged negotiations over the nuclear agreement, he played both sides of the divide between reformers and hard-liners.",
+                    "copyright":"Office of Iranian Supreme Leader, via Agence France-Presse \u2014 Getty Images"
+                }
+            ]
+        },
+        {
+            "section":"Arts",
+            "subsection":"Television",
+            "title":"Review: Just How Funny Does Comedy Need to Be",
+            "abstract":"\u201cBaskets,\u201d new show on FX starring Zach Galifianakis as a clown, offers slapstick humor and emotional drama.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/arts\/television\/tv-review-baskets-fx-zach-galifianakis.html",
+            "byline":"By JAMES PONIEWOZIK",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T11:57:22-5:00",
+            "created_date":"2016-01-19T11:57:29-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"Review",
+            "kicker":"",
+            "des_facet":[
+                "Television",
+                "Comedy and Humor",
+                "Baskets (TV Program)"
+            ],
+            "org_facet":[
+                "FX (TV Network)"
+            ],
+            "per_facet":[
+                "Galifianakis, Zach",
+                "Kelly, Martha (Comedian)"
+            ],
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20BASKETS\/20BASKETS-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Zach Galifianakis in \u201cBaskets,\u201d which begins Thursday on FX.",
+                    "copyright":"Ben Cohen\/FX"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20BASKETS\/20BASKETS-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Zach Galifianakis in \u201cBaskets,\u201d which begins Thursday on FX.",
+                    "copyright":"Ben Cohen\/FX"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20BASKETS\/20BASKETS-articleInline.jpg",
+                    "format":"Normal",
+                    "height":127,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Zach Galifianakis in \u201cBaskets,\u201d which begins Thursday on FX.",
+                    "copyright":"Ben Cohen\/FX"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20BASKETS\/20BASKETS-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Zach Galifianakis in \u201cBaskets,\u201d which begins Thursday on FX.",
+                    "copyright":"Ben Cohen\/FX"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20BASKETS\/20BASKETS-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1365,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Zach Galifianakis in \u201cBaskets,\u201d which begins Thursday on FX.",
+                    "copyright":"Ben Cohen\/FX"
+                }
+            ]
+        },
+        {
+            "section":"U.S.",
+            "subsection":"",
+            "title":"East Coast Snowstorm Is Expected to Hit This\u00a0Weekend",
+            "abstract":"Well into winter, meteorologists predicted that the season\u2019s first significant storm would head up the coast on Friday into Saturday.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/us\/a-snowstorm-is-expected-on-the-east-coast.html",
+            "byline":"By KATIE ROGERS",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T10:17:45-5:00",
+            "created_date":"2016-01-19T10:17:52-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Snow and Snowstorms",
+                "Mid-Atlantic States (US)"
+            ],
+            "org_facet":[
+                "National Weather Service"
+            ],
+            "per_facet":"",
+            "geo_facet":[
+                "East Coast (US)",
+                "Northeastern States (US)"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/20xp-1weather\/20xp-1weather-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rich Walter ran in frigid temperatures on Monday in Minneapolis, Minn.",
+                    "copyright":"Elizabeth Flores\/Star Tribune, via Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/20xp-1weather\/20xp-1weather-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rich Walter ran in frigid temperatures on Monday in Minneapolis, Minn.",
+                    "copyright":"Elizabeth Flores\/Star Tribune, via Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/20xp-1weather\/20xp-1weather-articleInline.jpg",
+                    "format":"Normal",
+                    "height":115,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rich Walter ran in frigid temperatures on Monday in Minneapolis, Minn.",
+                    "copyright":"Elizabeth Flores\/Star Tribune, via Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/20xp-1weather\/20xp-1weather-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rich Walter ran in frigid temperatures on Monday in Minneapolis, Minn.",
+                    "copyright":"Elizabeth Flores\/Star Tribune, via Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/19\/us\/20xp-1weather\/20xp-1weather-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1214,
+                    "width":2000,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rich Walter ran in frigid temperatures on Monday in Minneapolis, Minn.",
+                    "copyright":"Elizabeth Flores\/Star Tribune, via Associated Press"
+                }
+            ]
+        },
+        {
+            "section":"World",
+            "subsection":"Middle East",
+            "title":"Airdrops Called Too Risky to Help Starving Syrians",
+            "abstract":"American officials said that the Syrian government\u2019s antiaircraft weapons posed a threat and that dropping aid to a populated area could hurt the very people it was meant to help.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/world\/middleeast\/airdrops-called-too-risky-a-way-to-help-starving-syrians.html",
+            "byline":"By RUSSELL GOLDMAN",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T17:57:20-5:00",
+            "created_date":"2016-01-19T17:57:22-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Airlifts",
+                "Food Aid",
+                "Terrorism"
+            ],
+            "org_facet":[
+                "Defense Department",
+                "Islamic State in Iraq and Syria (ISIS)",
+                "State Department",
+                "World Food Program"
+            ],
+            "per_facet":[
+                "Engel, Eliot L"
+            ],
+            "geo_facet":[
+                "Madaya (Syria)"
+            ],
+            "multimedia":""
+        },
+        {
+            "section":"U.S.",
+            "subsection":"Politics",
+            "title":"High Court to Hear Case on Obama\u2019s Immigration Actions",
+            "abstract":"A coalition of 26 states has accused the president of abuse of power over his efforts to spare millions of immigrants from deportation and provide them with work permits.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/us\/politics\/supreme-court-to-hear-challenge-to-obama-immigration-actions.html",
+            "byline":"By ADAM LIPTAK and MICHAEL D. SHEAR",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T16:58:46-5:00",
+            "created_date":"2016-01-19T09:32:02-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Immigration and Emigration",
+                "Deportation",
+                "Executive Orders and Memorandums"
+            ],
+            "org_facet":[
+                "Supreme Court (US)"
+            ],
+            "per_facet":"",
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/16\/us\/16scotuswebsub\/16scotuswebsub-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Immigration supporters from CASA de Maryland, an advocacy group, rallied outside the Supreme Court on Friday.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/16\/us\/16scotuswebsub\/16scotuswebsub-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Immigration supporters from CASA de Maryland, an advocacy group, rallied outside the Supreme Court on Friday.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/16\/us\/16scotuswebsub\/16scotuswebsub-articleInline.jpg",
+                    "format":"Normal",
+                    "height":127,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Immigration supporters from CASA de Maryland, an advocacy group, rallied outside the Supreme Court on Friday.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/16\/us\/16scotuswebsub\/16scotuswebsub-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Immigration supporters from CASA de Maryland, an advocacy group, rallied outside the Supreme Court on Friday.",
+                    "copyright":"Doug Mills\/The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/16\/us\/16scotuswebsub\/16scotuswebsub-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1365,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Immigration supporters from CASA de Maryland, an advocacy group, rallied outside the Supreme Court on Friday.",
+                    "copyright":"Doug Mills\/The New York Times"
+                }
+            ]
+        },
+        {
+            "section":"Business Day",
+            "subsection":"DealBook",
+            "title":"Martin Shkreli Seeks New Legal Team in Securities Fraud Case",
+            "abstract":"Mr. Shkreli\u2019s law firm, Arnold & Porter, notified the court to say the pharmaceutical executive was retaining new lawyers.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/business\/dealbook\/martin-shkreli-fires-lawyers-and-seeks-new-team.html",
+            "byline":"By MATTHEW GOLDSTEIN",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T15:55:21-5:00",
+            "created_date":"2016-01-19T15:55:27-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Frauds and Swindling"
+            ],
+            "org_facet":[
+                "Arnold & Porter"
+            ],
+            "per_facet":[
+                "Shkreli, Martin (1983- )",
+                "Matsumoto, Kiyo A."
+            ],
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20db-shkreli-web\/20db-shkreli-web-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Martin Shkreli leaving court after his arraignment in December. It was unclear why Mr. Shkreli is seeking new counsel.",
+                    "copyright":"Seth Wenig\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20db-shkreli-web\/20db-shkreli-web-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Martin Shkreli leaving court after his arraignment in December. It was unclear why Mr. Shkreli is seeking new counsel.",
+                    "copyright":"Seth Wenig\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20db-shkreli-web\/20db-shkreli-web-articleInline.jpg",
+                    "format":"Normal",
+                    "height":148,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Martin Shkreli leaving court after his arraignment in December. It was unclear why Mr. Shkreli is seeking new counsel.",
+                    "copyright":"Seth Wenig\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20db-shkreli-web\/20db-shkreli-web-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Martin Shkreli leaving court after his arraignment in December. It was unclear why Mr. Shkreli is seeking new counsel.",
+                    "copyright":"Seth Wenig\/Associated Press"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20db-shkreli-web\/20db-shkreli-web-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1594,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Martin Shkreli leaving court after his arraignment in December. It was unclear why Mr. Shkreli is seeking new counsel.",
+                    "copyright":"Seth Wenig\/Associated Press"
+                }
+            ]
+        },
+        {
+            "section":"N.Y. \/ Region",
+            "subsection":"",
+            "title":"De Blasio\u2019s Plan on Carriages Keeps Gaining Critics",
+            "abstract":"A day after Bill de Blasio declared the matter closed, his proposal to limit the hansoms to Central Park drew more criticism, with pedicab drivers chanting \u201cone-term mayor\u201d outside City Hall.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/nyregion\/mayor-de-blasios-plan-on-horse-drawn-carriages-keeps-gaining-critics.html",
+            "byline":"By MICHAEL M. GRYNBAUM and J. DAVID GOODMAN",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T20:20:44-5:00",
+            "created_date":"2016-01-19T20:20:46-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Horses",
+                "Pedicabs (Bicycle Taxis)"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "de Blasio, Bill",
+                "Mark-Viverito, Melissa"
+            ],
+            "geo_facet":[
+                "Central Park (Manhattan, NY)"
+            ],
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20horses\/20horses-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A horse-drawn carriage waits for a fare on Central Park South Avenue this month. A plan by Mayor Bill de Blasio to reduce the number of carriages and restrict them to Central Park has attracted a diverse group of opponents.",
+                    "copyright":"Bryan Thomas for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20horses\/20horses-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A horse-drawn carriage waits for a fare on Central Park South Avenue this month. A plan by Mayor Bill de Blasio to reduce the number of carriages and restrict them to Central Park has attracted a diverse group of opponents.",
+                    "copyright":"Bryan Thomas for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20horses\/20horses-articleInline.jpg",
+                    "format":"Normal",
+                    "height":127,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A horse-drawn carriage waits for a fare on Central Park South Avenue this month. A plan by Mayor Bill de Blasio to reduce the number of carriages and restrict them to Central Park has attracted a diverse group of opponents.",
+                    "copyright":"Bryan Thomas for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20horses\/20horses-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A horse-drawn carriage waits for a fare on Central Park South Avenue this month. A plan by Mayor Bill de Blasio to reduce the number of carriages and restrict them to Central Park has attracted a diverse group of opponents.",
+                    "copyright":"Bryan Thomas for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/nyregion\/20horses\/20horses-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1365,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"A horse-drawn carriage waits for a fare on Central Park South Avenue this month. A plan by Mayor Bill de Blasio to reduce the number of carriages and restrict them to Central Park has attracted a diverse group of opponents.",
+                    "copyright":"Bryan Thomas for The New York Times"
+                }
+            ]
+        },
+        {
+            "section":"Business Day",
+            "subsection":"Economy",
+            "title":"Are America\u2019s Best Days Past or Ahead?",
+            "abstract":"A new book argues that the great strides in American innovation and prosperity made from 1920 through 1970 are unlikely to be repeated.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/business\/economy\/a-somber-view-of-americas-pace-of-progress.html",
+            "byline":"By EDUARDO PORTER",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T17:55:28-5:00",
+            "created_date":"2016-01-19T17:55:30-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "United States Economy",
+                "Income Inequality",
+                "Innovation",
+                "The Rise and Fall of American Growth (Book)",
+                "Living Standards"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "Gordon, Robert J"
+            ],
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20porter-web\/20porter-web-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Mary Tyler Moore in \u201cThe Dick Van Dyke Show.\u201d Though the Internet and video\u00a0games were not yet invented, life over all in the 1960s did not look that different.",
+                    "copyright":"The Hudson River Museum"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20porter-web\/20porter-web-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Mary Tyler Moore in \u201cThe Dick Van Dyke Show.\u201d Though the Internet and video\u00a0games were not yet invented, life over all in the 1960s did not look that different.",
+                    "copyright":"The Hudson River Museum"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20porter-web\/20porter-web-articleInline.jpg",
+                    "format":"Normal",
+                    "height":147,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Mary Tyler Moore in \u201cThe Dick Van Dyke Show.\u201d Though the Internet and video\u00a0games were not yet invented, life over all in the 1960s did not look that different.",
+                    "copyright":"The Hudson River Museum"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20porter-web\/20porter-web-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Mary Tyler Moore in \u201cThe Dick Van Dyke Show.\u201d Though the Internet and video\u00a0games were not yet invented, life over all in the 1960s did not look that different.",
+                    "copyright":"The Hudson River Museum"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/business\/20porter-web\/20porter-web-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":860,
+                    "width":1112,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Mary Tyler Moore in \u201cThe Dick Van Dyke Show.\u201d Though the Internet and video\u00a0games were not yet invented, life over all in the 1960s did not look that different.",
+                    "copyright":"The Hudson River Museum"
+                }
+            ]
+        },
+        {
+            "section":"Theater",
+            "subsection":"",
+            "title":"Review: \u2018Mother Courage\u2019",
+            "abstract":"Kecia Lewis stars in the Classic Stage Company production, which shifts Brecht\u2019s antiwar drama to the Democratic Republic of Congo.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/20\/theater\/review-a-mother-courage-deployed-to-africa.html",
+            "byline":"By CHARLES ISHERWOOD",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T19:00:01-5:00",
+            "created_date":"2016-01-19T19:00:01-5:00",
+            "published_date":"2016-01-20T00:00:00-5:00",
+            "material_type_facet":"Review",
+            "kicker":"",
+            "des_facet":[
+                "Theater",
+                "Mother Courage and Her Children (Play)"
+            ],
+            "org_facet":[
+                "Classic Stage Company"
+            ],
+            "per_facet":[
+                "Lewis, Kecia (1965- )",
+                "Kulick, Brian",
+                "Brecht, Bertolt"
+            ],
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20MACOURAGEREFER\/20MACOURAGEREFER-thumbStandard.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Kecia Lewis in \u201cMother Courage and Her Children,\u201d directed by Brian Kulick.",
+                    "copyright":"Richard Termine for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20MACOURAGEREFER\/20MACOURAGEREFER-thumbLarge.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Kecia Lewis in \u201cMother Courage and Her Children,\u201d directed by Brian Kulick.",
+                    "copyright":"Richard Termine for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20MACOURAGEREFER\/20MACOURAGEREFER-articleInline.jpg",
+                    "format":"Normal",
+                    "height":138,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Kecia Lewis in \u201cMother Courage and Her Children,\u201d directed by Brian Kulick.",
+                    "copyright":"Richard Termine for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20MACOURAGEREFER\/20MACOURAGEREFER-mediumThreeByTwo210.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Kecia Lewis in \u201cMother Courage and Her Children,\u201d directed by Brian Kulick.",
+                    "copyright":"Richard Termine for The New York Times"
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/20\/arts\/20MACOURAGEREFER\/20MACOURAGEREFER-superJumbo.jpg",
+                    "format":"superJumbo",
+                    "height":1482,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Kecia Lewis in \u201cMother Courage and Her Children,\u201d directed by Brian Kulick.",
+                    "copyright":"Richard Termine for The New York Times"
+                }
+            ]
+        },
+        {
+            "section":"Magazine",
+            "subsection":"",
+            "title":"Rachel Bloom Makes \u2019Em Laugh",
+            "abstract":"The comedian\u2019s series \u201cCrazy Ex-Girlfriend\u201d \u2014 which just won her a Golden Globe \u2014 manages to set uncomfortable truths to music.",
+            "url":"http:\/\/www.nytimes.com\/2016\/01\/24\/magazine\/make-em-laugh.html",
+            "byline":"By SUSAN DOMINUS",
+            "item_type":"Article",
+            "updated_date":"2016-01-19T07:00:04-5:00",
+            "created_date":"2016-01-19T07:00:07-5:00",
+            "published_date":"2016-01-24T00:00:00-5:00",
+            "material_type_facet":"News",
+            "kicker":"",
+            "des_facet":[
+                "Television",
+                "Comedy and Humor"
+            ],
+            "org_facet":"",
+            "per_facet":[
+                "Bloom, Rachel Leah (1987- )"
+            ],
+            "geo_facet":"",
+            "multimedia":[
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/24\/magazine\/24mag-bloom-promo\/24mag-bloom-1-thumbStandard-v2.jpg",
+                    "format":"Standard Thumbnail",
+                    "height":75,
+                    "width":75,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rachel Bloom of \u201cCrazy Ex-Girlfriend\u201d dressed as a dancer in \u201cA Chorus Line.\u201d",
+                    "copyright":"Photo illustration by Emily Shur for The New York Times. Stylist: Jessie Cohan. Hair: Creighton Bowman. Makeup: Roxy."
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/24\/magazine\/24mag-bloom-promo\/24mag-bloom-1-thumbLarge-v2.jpg",
+                    "format":"thumbLarge",
+                    "height":150,
+                    "width":150,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rachel Bloom of \u201cCrazy Ex-Girlfriend\u201d dressed as a dancer in \u201cA Chorus Line.\u201d",
+                    "copyright":"Photo illustration by Emily Shur for The New York Times. Stylist: Jessie Cohan. Hair: Creighton Bowman. Makeup: Roxy."
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/24\/magazine\/24mag-bloom-promo\/24mag-bloom-promo-articleInline-v2.jpg",
+                    "format":"Normal",
+                    "height":163,
+                    "width":190,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rachel Bloom of \u201cCrazy Ex-Girlfriend\u201d dressed as a dancer in \u201cA Chorus Line.\u201d",
+                    "copyright":"Photo illustration by Emily Shur for The New York Times. Stylist: Jessie Cohan. Hair: Creighton Bowman. Makeup: Roxy."
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/24\/magazine\/24mag-bloom-promo\/24mag-bloom-promo-mediumThreeByTwo210-v3.jpg",
+                    "format":"mediumThreeByTwo210",
+                    "height":140,
+                    "width":210,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rachel Bloom of \u201cCrazy Ex-Girlfriend\u201d dressed as a dancer in \u201cA Chorus Line.\u201d",
+                    "copyright":"Photo illustration by Emily Shur for The New York Times. Stylist: Jessie Cohan. Hair: Creighton Bowman. Makeup: Roxy."
+                },
+                {
+                    "url":"http:\/\/static01.nyt.com\/images\/2016\/01\/24\/magazine\/24mag-bloom-promo\/24mag-bloom-promo-superJumbo-v2.jpg",
+                    "format":"superJumbo",
+                    "height":1762,
+                    "width":2048,
+                    "type":"image",
+                    "subtype":"photo",
+                    "caption":"Rachel Bloom of \u201cCrazy Ex-Girlfriend\u201d dressed as a dancer in \u201cA Chorus Line.\u201d",
+                    "copyright":"Photo illustration by Emily Shur for The New York Times. Stylist: Jessie Cohan. Hair: Creighton Bowman. Makeup: Roxy."
+                }
+            ]
+        }
+    ]
+}

@@ -10,22 +10,81 @@ $(document).ready(function() {
     var popularAPI = "4cbdf26656996c15cd99d80fbcfe9b99%3A18%3A74061741";
     var popularURL = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/30.json?api-key=" + popularAPI;
 
-    // CALLING THE MAIN FUNCTION
-    mostPopular(popularURL);
-
     // TOP STORIES API KEY & URL
     var topStoriesAPI = "dbedf6c902da5f3bcd66b13a15d45689%3A2%3A74061741";
     var topStoriesURL = "http://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + topStoriesAPI;
-    console.log(topStoriesURL);
-    //topStories(topStoriesURL);
+
+    // CALLING THE MAIN FUNCTION
+    
 
     "use strict";
     var d = document;
     var mainDivToAppendTo = d.getElementById("feed");
     var cardTitle = d.getElementById("card-title");
     var postedBy = d.getElementById("post-by");
+    var numberOfPosts = d.getElementById("result-num");
+    var category = d.getElementById("view-type");
     var imgSource  = "";
     var link = "";
+
+    // GETTING THE BUTTON ELEMENTS
+    var hotNews = d.getElementById("hot");
+    var topNews = d.getElementById("top");
+    var techNews = d.getElementById("tech");
+    var businessNews = d.getElementById("business");
+    var politicsNews = d.getElementById("politics");
+    var worldNews = d.getElementById("world");
+    var sportsNews = d.getElementById("sports");
+
+    // DISPLAYS MOST POPULAR NEWS
+    hotNews.onclick = function() {
+        extractData(popularURL);
+    }
+
+    // DISPLAYS TOP STORIES FROM NYT
+    topNews.onclick = function() {
+        extractData(topStoriesURL);
+    }
+
+    // DISPLAYS TOP TECH NEWS
+    techNews.onclick = function() {
+        var link = storyByCategory("technology");
+        extractData(link);
+        $("#tech").toggleClass("select");
+    }
+
+    // DISPLAYS TOP BUSINESS NEWS
+    businessNews.onclick = function() {
+        var link = storyByCategory("business");
+        extractData(link);
+        $("#business").toggleClass("select");
+    }
+
+    // DISPLAYS TOP POLITICS NEWS
+    politicsNews.onclick = function() {
+        var link = storyByCategory("politics");
+        extractData(link);
+        $("#politics").toggleClass("select");
+    }
+
+    // DISPLAYS TOP WORLD NEWS
+    worldNews.onclick = function() {
+        var link = storyByCategory("world");
+        extractData(link);
+        $("#world").toggleClass("select");
+    }
+
+    // DISPLAYS TOP SPORTS NEWS
+    sportsNews.onclick = function() {
+        var link = storyByCategory("sports");
+        extractData(link);
+        $("#sports").toggleClass("select");
+    }
+
+    function storyByCategory(category) {
+        // TOP STORIES FROM CATEGORIES
+        return "http://api.nytimes.com/svc/topstories/v2/" + category + ".json?api-key=" + topStoriesAPI;
+    }
 
     // CREATES BASIC CARD STUCTURE TO SHOW THE NEWS
     function createCardElements() {
@@ -81,30 +140,18 @@ $(document).ready(function() {
         mainDivToAppendTo.appendChild(outerDiv);
     }
 
-    // MOST POPULAR IS SELECTED AND TOGGLED DEFAULTLY
-    function mostPopular(popularURL) {
-        $.getJSON(popularURL, function(popular) {
-            if(popular.error) { alert("Error!"); }
-            else {
-                popular.results.forEach(function(data) {
-                    link = data.url;
-                    cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
-                    postedBy = data.byline == "" ? data.source : data.byline;
-                    // console.log(data.media.media-metadata[1]);
-                    imgSource = data.media[0]["media-metadata"][0].url;
-                    createCardElements();
-                });
-            }
+    //MOST POPULAR IS SELECTED AND TOGGLED DEFAULTLY
+    function extractData(url) {
+        mainDivToAppendTo.innerHTML = null;
+        $.getJSON(url, function(api) {
+            api.results.forEach(function(data) {
+                link = data.url;
+                cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
+                postedBy = data.byline == "" ? data.source : data.byline;
+                if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
+                // else { imgSource = data.multimedia[1]["url"]; }
+                createCardElements();
+            });
         });
     }
-
-    // TOP NEWS STORY API
-    // function topStories(topStoriesURL) {
-    //     $.getJSON(topStoriesURL, function(top) {
-    //         top.forEach(topStoriesURL, function(data) {
-    //             link = data.results.url;
-    //         });
-    //     });
-    // }
-
 });
