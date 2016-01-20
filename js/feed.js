@@ -1,7 +1,10 @@
 $(document).ready(function() {
 
-    // WOW JS
+    // WOW JS & TOOLTIP
     new WOW().init();
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 
     /* API KEYS*/
     // SEARCH API KEY & URL
