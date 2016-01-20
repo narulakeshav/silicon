@@ -23,6 +23,7 @@ $(document).ready(function() {
         $(".intro").addClass("hideDiv");
     }
     
+    // LOAD MOST POPULAR ON LOAD
 
     "use strict";
     var d = document;
@@ -147,18 +148,32 @@ $(document).ready(function() {
         mainDivToAppendTo.appendChild(outerDiv);
     }
 
+    // FIRST TIME
+    var first = true;
+    firstTime(popularURL);
+
+    // FIRST TIME
+    function firstTime(url) {
+        if(first){
+            first = false;
+            extractData(url);
+        }
+    }
+
     //MOST POPULAR IS SELECTED AND TOGGLED DEFAULTLY
     function extractData(url) {
-        mainDivToAppendTo.innerHTML = null;
-        $.getJSON(url, function(api) {
-            api.results.forEach(function(data) {
-                link = data.url;
-                cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
-                postedBy = data.byline == "" ? data.source : data.byline;
-                if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
-                // else { imgSource = data.multimedia[1]["url"]; }
-                createCardElements();
+        if(!first) {
+            mainDivToAppendTo.innerHTML = null;
+            $.getJSON(url, function(api) {
+                api.results.forEach(function(data) {
+                    link = data.url;
+                    cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
+                    postedBy = data.byline == "" ? data.source : data.byline;
+                    if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
+                    // else { imgSource = data.multimedia[1]["url"]; }
+                    createCardElements();
+                });
             });
-        });
+        }
     }
 });
