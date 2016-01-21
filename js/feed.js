@@ -51,82 +51,63 @@ $(document).ready(function() {
         $(".intro").addClass("hideDiv");
     }
 
-    // DISPLAYS MOST POPULAR NEWS
-    hotNews.onclick = function() {
-        extractData(popularURL);
+    // SHOWS THE TOP AND TRENDING NEWS ON CLICK
+    function mainButtonClick(url, id, name) {
+        extractData(url);
         $(".options").removeClass("top-select");
         $(".options").removeClass("select");
-        $("#hot").addClass("top-select");
-        viewing.innerHTML = "Most Popular";
+        $(id).addClass("top-select");
+        viewing.innerHTML = name;
+    }
+
+    // SHOWS THE INDIVIDUAL CATEGORY RESULTS ON THE SIDBAR BUTTON CLICK
+    function categoryButtonClick(category, id, name) {
+        var link = storyByCategory(category);
+        extractData(link);
+        $(".options").removeClass("top-select");
+        $(".options").removeClass("select");
+        $(id).addClass("select");
+        viewing.innerHTML = name;
+    }
+
+    // DISPLAYS MOST POPULAR NEWS
+    hotNews.onclick = function() {
+        mainButtonClick(popularURL, "#hot", "Most Popular");
     }
 
     // DISPLAYS TOP STORIES FROM NYT
     topNews.onclick = function() {
-        extractData(topStoriesURL);
-        $(".options").removeClass("top-select");
-        $(".options").removeClass("select");
-        $("#top").addClass("top-select");
-        viewing.innerHTML = "Top Stories";
+        mainButtonClick(topStoriesURL, "#top", "Top Stories");
     }
 
     // DISPLAYS TOP TECH NEWS
     techNews.onclick = function() {
-        var link = storyByCategory("technology");
-        extractData(link);
-        $(".options").removeClass("top-select");
-        $(".options").removeClass("select");
-        $("#tech").addClass("select");
-        viewing.innerHTML = "Techonology";
+        categoryButtonClick("technology", "#tech", "Techonology");
     }
 
     // DISPLAYS TOP BUSINESS NEWS
     businessNews.onclick = function() {
-        var link = storyByCategory("business");
-        extractData(link);
-        $(".options").removeClass("top-select");
-        $(".options").removeClass("select");
-        $("#business").addClass("select");
-        viewing.innerHTML = "Business";
+        categoryButtonClick("business", "#business", "Business");
     }
 
     // DISPLAYS TOP POLITICS NEWS
     politicsNews.onclick = function() {
-        var link = storyByCategory("politics");
-        extractData(link);
-        $(".options").removeClass("top-select");
-        $(".options").removeClass("select");
-        $("#politics").addClass("select");
-        viewing.innerHTML = "Politics";
+        categoryButtonClick("politics", "#politics", "Politics");
     }
 
     // DISPLAYS TOP WORLD NEWS
     worldNews.onclick = function() {
-        var link = storyByCategory("world");
-        extractData(link);
-        $(".options").removeClass("top-select");
-        $(".options").removeClass("select");
-        $("#world").addClass("select");
-        viewing.innerHTML = "World";
+        categoryButtonClick("world", "#world", "World");
     }
 
     // DISPLAYS TOP SPORTS NEWS
     sportsNews.onclick = function() {
-        var link = storyByCategory("sports");
-        extractData(link);
-        $(".options").removeClass("top-select");
-        $(".options").removeClass("select");
-        $("#sports").addClass("select");
-        viewing.innerHTML = "Sports";
+        categoryButtonClick("sports", "#sports", "Sports");
     }
 
     // DISPLAYS TOP TRAVEL NEWS
     travelNews.onclick = function() {
-        var link = storyByCategory("travel");
-        extractData(link);
-        $(".options").removeClass("top-select");
-        $(".options").removeClass("select");
-        $("#travel").addClass("select");
-        viewing.innerHTML = "Travel";
+        categoryButtonClick("travel", "#travel", "Travel");
     }
 
     function storyByCategory(category) {
