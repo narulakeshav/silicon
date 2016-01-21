@@ -36,6 +36,8 @@ I used 3 of NewYorkTimes API:
 
 # Design
 Designing Silicon was pretty simple. I only used `Twitter Bootstrap`, `Animate.css`, `WOW.js`, `Material Icons`, and `Font Awesome`. I wanted to follow NYT black and white theme so it looks consistent. 
+<br><br>
+For larger screen such as for laptops and desktops, there is a sticky sidebar that lets you navigate through any sections. In smaller devices, such as phones and tablets, there's a fixed navbar which allows you to do the same thing.
 
 # The New York Times
 The content belong to The New York Times. In no way, am I affiliated with the content or The New York Times. This is just a project where I used and implemented the New York Times APIs.
@@ -44,4 +46,4 @@ The content belong to The New York Times. In no way, am I affiliated with the co
 I wanted to work on a News feed but I wasn't able to find lots of news websites that offered API to developers. Then I came across NYT and they had great API that allowed you to grab their content via `JSON` and search for the articles on their websites. A better documentation would've been very helpful, but their APIs are fantasic.
 
 # What I learned
-
+This was one of the hardest projects I worked on. I was new to `JSON` and grabbing data from `JSON` over a server and using that to display the data. I came across many complications, few of them being getting the images/thumbnail for each post, and iterating over the `JSON`. I learned many new techniques that helped me iterate over the `JSON` and grab the right results. 
