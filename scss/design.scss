@@ -1,8 +1,9 @@
 /* Importing Google Font */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+@import url(https://fonts.googleapis.com/css?family=Lora);
 
 /* Color Declarations */
-$white: #FFF;
+$white: $white;
 $gray: #7F8C8D;
 $primary: #333;
 
@@ -178,6 +179,7 @@ img {
 /* Text Properties CSS */
 #card-title {
     font-weight: $normal;
+    font-family: Lora;
     font-size: 15px;
     padding: 14px 0px 0px 15px;
     color: #888;
@@ -198,7 +200,7 @@ img {
     text-transform: uppercase;
     font-weight: $normal;
     font-size: 13px;
-    padding: 10px 5px 5px 5px;
+    padding: 10px 5px;
     #result-num,
     #view-type {
         color: #444;
@@ -247,7 +249,7 @@ hr {
 
 /* Intro CSS */
 .intro {
-    background: #FFF;
+    background: $white;
     height: 100vh;
     width: 100vw;
     z-index: 100;
@@ -263,6 +265,7 @@ hr {
         color: #333;
         font-size: 30px;
         text-align: center;
+        font-family: Lora;
     }
     .intro-loading {
         color: #888;
@@ -293,6 +296,7 @@ hr {
     color: #777;
     padding: 10px 5px 0px 5px;
     padding-right: 10px;
+    font-family: Lora;
 }
 .close {
     @include transition(0.5s);
@@ -302,10 +306,10 @@ hr {
 }
 .btn-social,
 .btn-social:focus {
-    background: #F0F0F0;
+    background: #444;
     padding: 10px 12px;
     border-radius: 2px;
-    color: #888;
+    color: $white;
     margin-right: 5px;
     text-transform: uppercase;
     font-size: 11px;
@@ -314,15 +318,15 @@ hr {
 }
 .linkedin:hover {
     background: #1985BC;
-    color: #FFF;
+    color: $white;
 }
 .twitter:hover {
     background: #55ACEE;
-    color: #FFF;
+    color: $white;
 }
 .github:hover {
-    background: #444;
-    color: #FFF;
+    background: #222;
+    color: $white;
 }
 .modal-body {
     a,
