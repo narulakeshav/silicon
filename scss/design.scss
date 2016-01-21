@@ -58,6 +58,9 @@ a:hover {
 }
 
 /* Div Tags CSS */
+nav {
+    display: none;
+}
 .sidebar {
     background: $sidebar-background;
     height: 100vh;
@@ -300,10 +303,10 @@ hr {
 }
 .btn-social,
 .btn-social:focus {
-    background: #444;
+    background: #EEE;
     padding: 10px 12px;
     border-radius: 2px;
-    color: $white;
+    color: #888;
     margin-right: 5px;
     text-transform: uppercase;
     font-size: 11px;
@@ -319,7 +322,7 @@ hr {
     color: $white;
 }
 .github:hover {
-    background: #222;
+    background: #444;
     color: $white;
 }
 .modal-body {
@@ -335,10 +338,76 @@ hr {
     }
 }
 
-/* Setting Media Query for Modal */
+/* Media Query for Smaller Devices */
 @media(max-width: 768px) {
+    .intro {
+        z-index: 100;
+    }
+    .sidebar {
+        display: none;
+    }
+    .content {
+        padding-top: 50px;
+    }
+    .result-tab {
+        position: static;
+    }
+    form {
+        .material-icons {
+            top: 65px;
+        }
+    }
+    .form-control,
+    .form-control:focus {
+        padding: 25px 25px;
+        width: 100%;
+    }
+    nav {
+        display: inline;
+    }
+    .navbar {
+        background: $sidebar-background;
+        z-index: 99;
+        border: none;
+        .navbar-header {
+            .navbar-brand {
+                .img-logo {
+                    height: 40px;
+                    margin-top: -10px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #CCC;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        color: $white;
+    }
+    .navbar-toggle,
+    .navbar-toggle:focus {
+        @include transition(0.5s);
+        background: none;
+    }
+    .navbar-toggle:hover {
+        background: $primary;
+    }
+    .collapsed {
+        border-width: 1px;
+        border-color: transparent !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
     .modal-dialog {
         padding-top: 100px;
         width: 94%;
+    }
+    #card-title {
+        font-size: 13px;
+    }
+    #post-by {
+        font-size: 10px;
     }
 }
