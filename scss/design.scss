@@ -367,7 +367,6 @@ hr {
         display: inline;
     }
     .navbar {
-        background: $sidebar-background;
         z-index: 99;
         border: none;
         .navbar-header {
@@ -379,12 +378,6 @@ hr {
                 }
             }
         }
-    }
-    .navbar-default .navbar-nav > li > a {
-        color: #CCC;
-    }
-    .navbar-default .navbar-nav > li > a:hover {
-        color: $white;
     }
     .navbar-toggle,
     .navbar-toggle:focus {
@@ -407,8 +400,18 @@ hr {
     }
     #card-title {
         font-size: 13px;
+        padding: 12px 0px 0px 10px;
     }
     #post-by {
         font-size: 10px;
+    }
+    .card {
+        height: 100px;
+        padding-right: 5px;
+        overflow: hidden;
+    }
+    #img-card {
+        height: 100px;
+        margin-right: 10px;
     }
 }
