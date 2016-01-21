@@ -193,10 +193,11 @@ $(document).ready(function() {
                     cardTitle = data.title.length > 43 ? data.title.substring(0, 43) + ".." : data.title;
                     postedBy = data.byline == "" ? data.source : (data.byline.length > 46)? data.byline.substring(0,46) + " .." : data.byline;
                     if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
-                    // else { 
-                    //     imgSource = data.multimedia[0].url; 
-                    //     if(!imgSource || imgSource == undefined) { imgSource = "no-img.png"; }
-                    // }
+                    else { 
+                        var src = data.multimedia[1];
+                        if(!src || src == undefined) { src = "img/img-nyt.png"; }
+                        else imgSource = data.multimedia[1].url;
+                    }
                     createCardElements();
                 });
             });
@@ -219,15 +220,15 @@ $(document).ready(function() {
         viewing.innerHTML = term;
         term = term.replace(/ /g, "+");
         searchURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + term + "&api-key=" + searchAPI;
-        var prefix = "http:\/\/static01.nyt.com\/";
+        var prefix = "http://static01.nyt.com/";
         mainDivToAppendTo.innerHTML = null;
         $.getJSON(searchURL, function(api) {
             var i = 0;
             api.response.docs.forEach(function(data) {
                 link = data.web_url;
-                var src = prefix + data.multimedia[0].url;
+                var src = data.multimedia[2];
                 if(!src || src == undefined) { src = "img/img-nyt.png"; }
-                else imgSource = src;
+                else imgSource = prefix + data.multimedia[2].url;
                 console.log(imgSource);
                 cardTitle = (data.headline.main.length > 43) ? data.headline.main.substring(0, 43) + " .." : data.headline.main;
                 postedBy = "In " + data["section_name"];
