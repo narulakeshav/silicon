@@ -253,11 +253,13 @@ $(document).ready(function() {
             $.getJSON(url, function(api) {
                 //GETS THE NUMBER OF POSTS VIA THE API
                 numberOfPosts.innerHTML = api["num_results"] + " Results";
+                var popResults = 0;
                 api.results.forEach(function(data) {
                     // GETS THE URL OF THE POST, TITLE OF POST, AND AUTHOR NAME (WHICH IS SHORTENED DOWN)
                     link = data.url;
                     cardTitle = data.title.length > 43 ? data.title.substring(0, 43) + ".." : data.title;
                     postedBy = (data.byline == "") ? data.source : (data.byline.length > 46) ? data.byline.substring(0, 46) + " .." : data.byline;
+                    popResults++;
                     // IF SEARCHING FOR MOST POPULAR, CHECK IF MEDIA IF UNDEFINED. IF NOT, GET THE URL
                     if (url == popularURL) {
                         var source = data.media[0];
@@ -274,6 +276,7 @@ $(document).ready(function() {
                         if (!src || src == undefined) { imgSource = "img/img-nyt.png"; } 
                         else { imgSource = data.multimedia[1].url; }
                     }
+                    if(url == popularURL) { numberOfPosts.innerHTML = popResults + " Results"; }
                     // CREATES THE NECESSARY CARD ELEMENTS
                     createCardElements();
                 });
