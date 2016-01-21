@@ -193,7 +193,10 @@ $(document).ready(function() {
                     cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
                     postedBy = data.byline == "" ? data.source : (data.byline.length > 46)? data.byline.substring(0,46) + " .." : data.byline;
                     // if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
-                    // else { imgSource = data.multimedia[1]["url"]; }
+                    // else { 
+                    //     imgSource = data.multimedia[0].url; 
+                    //     if(!imgSource || imgSource == undefined) { imgSource = "no-img.png"; }
+                    // }
                     createCardElements();
                 });
             });
@@ -214,7 +217,7 @@ $(document).ready(function() {
     // MAKES THE REQUEST AND DISPLAYS THE NEWS BASED ON RESULTS
     function searchArticles(term) {
         viewing.innerHTML = term;
-        term = term.replace(" ", "+");
+        term = term.replace(/ /g, "+");
         searchURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + term + "&api-key=" + searchAPI;
         console.log(searchURL);
         mainDivToAppendTo.innerHTML = null;
@@ -222,12 +225,11 @@ $(document).ready(function() {
             var i = 0;
             api.response.docs.forEach(function(data) {
                 link = data.web_url;
-                console.log(link);
-                // imgSource = data.multimedia
+                // imgSource = "http:\/\/static01.nyt.com\/" + data.multimedia[2].url;
+                // if(!imgSource) { imgSource = "no-img.png"; }
+                // console.log(imgSource);
                 cardTitle = (data.headline.main.length > 45) ? data.headline.main.substring(0, 45) + " .." : data.headline.main;
-                console.log(cardTitle);
                 postedBy = "In " + data["section_name"];
-                console.log(postedBy);
                 i++;
                 createCardElements();
             });
