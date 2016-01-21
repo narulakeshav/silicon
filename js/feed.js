@@ -70,6 +70,11 @@ $(document).ready(function() {
         viewing.innerHTML = name;
     }
 
+    function storyByCategory(category) {
+        // TOP STORIES FROM CATEGORIES
+        return "http://api.nytimes.com/svc/topstories/v2/" + category + ".json?api-key=" + topStoriesAPI;
+    }
+
     // DISPLAYS MOST POPULAR NEWS
     hotNews.onclick = function() {
         mainButtonClick(popularURL, "#hot", "Most Popular");
@@ -108,11 +113,6 @@ $(document).ready(function() {
     // DISPLAYS TOP TRAVEL NEWS
     travelNews.onclick = function() {
         categoryButtonClick("travel", "#travel", "Travel");
-    }
-
-    function storyByCategory(category) {
-        // TOP STORIES FROM CATEGORIES
-        return "http://api.nytimes.com/svc/topstories/v2/" + category + ".json?api-key=" + topStoriesAPI;
     }
 
     // CREATES BASIC CARD STUCTURE TO SHOW THE NEWS
@@ -192,10 +192,18 @@ $(document).ready(function() {
                     link = data.url;
                     cardTitle = data.title.length > 43 ? data.title.substring(0, 43) + ".." : data.title;
                     postedBy = data.byline == "" ? data.source : (data.byline.length > 46)? data.byline.substring(0,46) + " .." : data.byline;
-                    if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
+                    if(url == popularURL) {
+                        var source = data.media[0];
+                        if(!source || source == undefined) { imgSource = "img/img-nyt.png"; }
+                        else {
+                            var s = data.media[0]["media-metadata"][0];
+                            if(!s || s == undefined) { imgSource = "img/img-nyt.png"; }
+                            else imgSource = s.url;
+                        }
+                    }
                     else { 
                         var src = data.multimedia[1];
-                        if(!src || src == undefined) { src = "img/img-nyt.png"; }
+                        if(!src || src == undefined) { imgSource = "img/img-nyt.png"; }
                         else imgSource = data.multimedia[1].url;
                     }
                     createCardElements();
