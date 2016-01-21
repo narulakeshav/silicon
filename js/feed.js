@@ -20,6 +20,7 @@ $(document).ready(function() {
     var topStoriesAPI = "dbedf6c902da5f3bcd66b13a15d45689%3A2%3A74061741";
     var topStoriesURL = "http://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + topStoriesAPI;
 
+    // GENERAL CARD COMPONENTS
     "use strict";
     var d = document;
     var mainDivToAppendTo = d.getElementById("feed");
@@ -41,6 +42,16 @@ $(document).ready(function() {
     var worldNews = d.getElementById("world");
     var sportsNews = d.getElementById("sports");
     var travelNews = d.getElementById("travel");
+
+    // NAVBAR BUTTON LINKS FOR SMALL DEVICES ONLY
+    var liPopular = d.getElementById("li-popular");
+    var liTop = d.getElementById("li-top");
+    var liTech = d.getElementById("li-tech");
+    var liBusiness = d.getElementById("li-business");
+    var liPolitics = d.getElementById("li-politics");
+    var liWorld = d.getElementById("li-world");
+    var liSports = d.getElementById("li-sports");
+    var liTravel = d.getElementById("li-travel");
 
     // DISPLAYING RANDOM LOAD MESSAGE
     loadMessage.innerHTML = randomLoadMessage();
@@ -70,8 +81,8 @@ $(document).ready(function() {
         viewing.innerHTML = name;
     }
 
+    // TOP STORIES FROM CATEGORIES
     function storyByCategory(category) {
-        // TOP STORIES FROM CATEGORIES
         return "http://api.nytimes.com/svc/topstories/v2/" + category + ".json?api-key=" + topStoriesAPI;
     }
 
@@ -113,6 +124,58 @@ $(document).ready(function() {
     // DISPLAYS TOP TRAVEL NEWS
     travelNews.onclick = function() {
         categoryButtonClick("travel", "#travel", "Travel");
+    }
+
+    // DISPLAYS BUTTON LINKS FOR SMALLER DEVICES
+    function listItemClicked(category, id, name) {
+        var link = storyByCategory(category);
+        extractData(link);
+        viewing.innerHTML = name;
+    }
+
+    // CLOSES THE NAVBAR WHEN A BUTTON IS CLICKED
+    $('.navbar-collapse').click('a', function() {
+        $('.navbar-collapse').collapse('hide');
+    });
+
+    // DISPLAYS MOST POPULAR NEWS
+    liPopular.onclick = function() {
+        listItemClicked(popularURL, "#li-popular", "Most Popular");
+    }
+
+    // DISPLAYS TOP STORIES
+    liTop.onclick = function () {
+        listItemClicked(topStoriesURL, "#li-stop", "Top Stories");   
+    }
+
+    // DISPLAYS TOP TECH NEWS
+    liTech.onclick = function() {
+        listItemClicked("technology", "#li-tech", "Techonology");
+    }
+
+    // DISPLAYS TOP BUSINESS NEWS
+    liBusiness.onclick = function() {
+        listItemClicked("business", "#li-business", "Business");
+    }
+
+    // DISPLAYS TOP POLITICS NEWS
+    liPolitics.onclick = function() {
+        listItemClicked("politics", "#li-politics", "Politics");
+    }
+
+    // DISPLAYS TOP WORLD NEWS
+    liWorld.onclick = function() {
+        listItemClicked("world", "#li-world", "World");
+    }
+
+    // DISPLAYS TOP SPORTS NEWS
+    liSports.onclick = function() {
+        listItemClicked("sports", "#li-sports", "Sports");
+    }
+
+    // DISPLAYS TOP TRAVEL NEWS
+    liTravel.onclick = function() {
+        listItemClicked("travel", "#li-travel", "Travel");
     }
 
     // CREATES BASIC CARD STUCTURE TO SHOW THE NEWS
