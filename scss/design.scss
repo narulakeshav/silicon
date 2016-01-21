@@ -70,10 +70,14 @@ a:hover {
     height: 100%;
     overflow: hidden;
     background: $content-background;
+    padding-top: 80px;
 }
 .result-tab {
     background: $content-background;
-    padding: 10px 30px;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 .card {
     background: $white;
@@ -208,9 +212,12 @@ img {
   background: transparent;
   border: none;
   font-size: 16px;
-  padding: 25px 25px;
+  padding: 35px 25px;
   outline: none;
   box-shadow: none;
+  @include border-radius(0);
+  border-bottom: 1px solid #DDD;
+  width: 88.9%;
 }
 ::-webkit-input-placeholder {
   color: #7F8C8D; 
