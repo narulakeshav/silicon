@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
 /* Color Declarations */
-$white: $white;
+$white: #FFF;
 $gray: #7F8C8D;
 $primary: #333;
 
@@ -141,13 +141,7 @@ img {
     }
 }
 .select,
-.options:hover {
-    border: 1px solid $white;
-    background: $primary;
-    span {
-        color: $white;
-    }
-}
+.options:hover,
 .top-select,
 .top-select:hover {
     background: $white;
@@ -259,7 +253,7 @@ hr {
     @include transition(0.5s);
     .intro-img{
         height: 130px;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
     .intro-text {
         color: #333;
