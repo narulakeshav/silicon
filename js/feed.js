@@ -190,7 +190,7 @@ $(document).ready(function() {
                 numberOfPosts.innerHTML = api["num_results"] + " Results";
                 api.results.forEach(function(data) {
                     link = data.url;
-                    cardTitle = data.title.length > 48 ? data.title.substring(0, 48) + ".." : data.title;
+                    cardTitle = data.title.length > 45 ? data.title.substring(0, 45) + ".." : data.title;
                     postedBy = data.byline == "" ? data.source : (data.byline.length > 46)? data.byline.substring(0,46) + " .." : data.byline;
                     // if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
                     // else { 
@@ -239,7 +239,7 @@ $(document).ready(function() {
 
     // DISPLAYS FUNNY/RANDOM MESSAGES IN LOAD
     function randomLoadMessage() {
-        var arr = ["Shovelling coal into the server ..", "At least you're not on hold ..", "I'm testing your patience ..", "A few bits tried to escape, but we caught them ..", "The bits are flowing slowly today ..", "The architects are still drafting ..", "The bits are still breeding ..", "And dream of faster computers ..", "Would you like fries with that? ..", "The server is powered by a lemon and two electrodes ..", "Waiting for satellite moves into position .."];
+        var arr = ["Shovelling coal into the server ..", "At least you're not on hold ..", "I'm testing your patience ..", "A few bits tried to escape, but we caught them ..", "The bits are flowing slowly today ..", "The architects are still drafting ..", "The bits are still breeding ..", "Would you like fries with that? ..", "The server is powered by a lemon and two electrodes ..", "Waiting for satellite moves into position .."];
         return arr[Math.floor(Math.random() * arr.length)];
     }
 });
