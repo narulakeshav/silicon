@@ -195,8 +195,8 @@ $(document).ready(function() {
     function setAttributes(outerDiv, innerDiv, postLink, image, title, author) {
 
         // SETS CLASS NAMES TO DIVS
-        outerDiv.className = "col-md-4";
-        innerDiv.className = "col-md-12 card wow fadeInUp";
+        outerDiv.className = "col-md-4 wow fadeIn";
+        innerDiv.className = "col-md-12 card";
         innerDiv.setAttribute("data-wow-delay", "0.2s");
 
         // SETS ATTRIBUTES TO LINK
