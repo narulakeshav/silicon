@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     // MOST POPULAR ARTICLES API KEY & URL
     var popularAPI = "4cbdf26656996c15cd99d80fbcfe9b99%3A18%3A74061741";
-    var popularURL = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/30.json?api-key=" + popularAPI;
+    var popularURL = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=" + popularAPI;
 
     // TOP STORIES API KEY & URL
     var topStoriesAPI = "dbedf6c902da5f3bcd66b13a15d45689%3A2%3A74061741";
@@ -143,7 +143,7 @@ $(document).ready(function() {
         // TO THUMBNAIL, TITLE, AND AUTHOR
         image.className = "img-responsive";
         image.setAttribute("id", "img-card");
-        image.setAttribute("src", "img-nyt.png");
+        image.setAttribute("src", imgSource);
 
         title.setAttribute("id", "card-title");
         title.innerHTML = cardTitle;
@@ -190,9 +190,9 @@ $(document).ready(function() {
                 numberOfPosts.innerHTML = api["num_results"] + " Results";
                 api.results.forEach(function(data) {
                     link = data.url;
-                    cardTitle = data.title.length > 45 ? data.title.substring(0, 45) + ".." : data.title;
+                    cardTitle = data.title.length > 43 ? data.title.substring(0, 43) + ".." : data.title;
                     postedBy = data.byline == "" ? data.source : (data.byline.length > 46)? data.byline.substring(0,46) + " .." : data.byline;
-                    // if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
+                    if(url == popularURL) { imgSource = data.media[0]["media-metadata"][0].url; }
                     // else { 
                     //     imgSource = data.multimedia[0].url; 
                     //     if(!imgSource || imgSource == undefined) { imgSource = "no-img.png"; }
@@ -219,16 +219,17 @@ $(document).ready(function() {
         viewing.innerHTML = term;
         term = term.replace(/ /g, "+");
         searchURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + term + "&api-key=" + searchAPI;
-        console.log(searchURL);
+        var prefix = "http:\/\/static01.nyt.com\/";
         mainDivToAppendTo.innerHTML = null;
         $.getJSON(searchURL, function(api) {
             var i = 0;
             api.response.docs.forEach(function(data) {
                 link = data.web_url;
-                // imgSource = "http:\/\/static01.nyt.com\/" + data.multimedia[2].url;
-                // if(!imgSource) { imgSource = "no-img.png"; }
-                // console.log(imgSource);
-                cardTitle = (data.headline.main.length > 45) ? data.headline.main.substring(0, 45) + " .." : data.headline.main;
+                var src = prefix + data.multimedia[0].url;
+                if(!src || src == undefined) { src = "img/img-nyt.png"; }
+                else imgSource = src;
+                console.log(imgSource);
+                cardTitle = (data.headline.main.length > 43) ? data.headline.main.substring(0, 43) + " .." : data.headline.main;
                 postedBy = "In " + data["section_name"];
                 i++;
                 createCardElements();
