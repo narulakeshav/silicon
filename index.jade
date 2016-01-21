@@ -5,8 +5,8 @@ html
         meta(charset="UTF-8")
 
         // Favicon and Title
-        title#page-title Silicon - Top & Trending News Stories Only
-        link(rel='shortcut icon', href='nyt.png')
+        title#page-title Silicon - Top and Trending News Stories Only
+        link(rel='shortcut icon', href='img/silicon.png')
 
         // META TAGS
         meta(property='og:title', content='Silicon')
@@ -27,8 +27,8 @@ html
         link(rel='stylesheet', href='scss/design.css')
     body
         div.col-md-12.intro.wow.bounceOutRight(data-wow-delay="2.7s", align="center")
-            img.img-responsive.intro-img.wow.fadeInDown(src="nyt.png", data-wow-delay="0.2s")
-            p.intro-text.wow.fadeInUp(data-wow-delay="0.3s") Silicon
+            img.img-responsive.intro-img.wow.flipInY(src="img/silicon.png", data-wow-delay="0.3s")
+            p.intro-text.wow.fadeInUp(data-wow-delay="0.4s") Silicon
             p.intro-loading.wow.fadeInUp(data-wow-delay="0.6s")
                 span.fa.fa-spinner.fa-spin
                 | &nbsp;&nbsp;
@@ -50,8 +50,8 @@ html
 
         // FIXED SIDEBAR 
         div.col-md-1.sidebar.wow.fadeIn(data-wow-delay="3s")
-            a(href="http://www.nytimes.com/" target="_blank", data-toggle="tooltip", data-placement="right", title="NYTimes.com")
-                img.img-responsive.nyt-logo.img-circle(src="nyt.png")
+            a(href="http://www.nytimes.com/" target="_blank")
+                img.img-responsive.nyt-logo.img-circle(src="img/icon.png")
             hr
             a.btn.options.top-select#hot(data-toggle="tooltip", data-placement="right", title="Popular")
                 span.material-icons whatshot
