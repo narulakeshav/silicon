@@ -21,21 +21,21 @@ $bold: 500;
 
 /* Mixins */
 @mixin border-radius ($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
+    -webkit-o-border-radius: $radius;
+    -moz-o-border-radius: $radius;
+    -ms-o-border-radius: $radius;
     border-radius: $radius;
 }
 @mixin transition ($seconds) {
-    -webkit-transition: all $seconds;
-    -moz-transition: all $seconds;
-    -ms-transition: all $seconds;
+    -webkit-o-transition: all $seconds;
+    -moz-o-transition: all $seconds;
+    -ms-o-transition: all $seconds;
     transition: all $seconds;
 }
 @mixin brightness($percent) {
-    -webkit-filter: brightness($percent);
-    -moz-filter: brightness($percent);
-    -ms-filter: brightness($percent);
+    -webkit-o-filter: brightness($percent);
+    -moz-o-filter: brightness($percent);
+    -ms-o-filter: brightness($percent);
 }
 
 .font-property {
