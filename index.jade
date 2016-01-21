@@ -24,8 +24,38 @@ html
         link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css')
 
         // MY CSS FILE
-        link(rel='stylesheet', href='scss/design.css')
+        link(rel='stylesheet', href='scss/design.css', media="all")
     body
+        // NAVBAR THAT ONLY SHOWS UP IN MOBILE
+        nav.navbar.navbar-default.navbar-fixed-top
+            .container-fluid
+                .navbar-header
+                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href='#')
+                        img.img-logo(src="img/silicon-light.png")
+                #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar-right
+                        li 
+                            a(href='#') Most Popular
+                        li 
+                            a(href='#') Top Stories
+                        li
+                            a(href='#') Technology
+                        li 
+                            a(href='#') Business
+                        li 
+                            a(href='#') Politics
+                        li 
+                            a(href='#') World
+                        li 
+                            a(href='#') Sports
+                        li 
+                            a(href='#') Travel
+
+        // MAIN CONTENT
         div.col-md-12.intro.wow.bounceOutRight(data-wow-delay="2.7s", align="center")
             img.img-responsive.intro-img.wow.flipInY(src="img/silicon.png", data-wow-delay="0.3s")
             p.intro-text.wow.fadeInUp(data-wow-delay="0.4s") Silicon
@@ -51,7 +81,7 @@ html
         // FIXED SIDEBAR 
         div.col-md-1.sidebar.wow.fadeIn(data-wow-delay="3s")
             a(href="http://www.nytimes.com/" target="_blank")
-                img.img-responsive.nyt-logo.img-circle(src="img/icon.png")
+                img.img-responsive.nyt-logo.img-circle(src="img/img-nyt.png")
             hr
             a.btn.options.top-select#hot(data-toggle="tooltip", data-placement="right", title="Popular")
                 span.material-icons whatshot
@@ -94,13 +124,13 @@ html
                     .modal-footer
                         a.btn.btn-social.twitter(href='https://twitter.com/NarulaKeshav', target='_blank')
                           span.fa.fa-twitter
-                          |   Follow
+                          |   Share
                         a.btn.btn-social.github(href='https://github.com/NarulaKeshav', target='_blank')
                           span.fa.fa-github
-                          |   GitHub
+                          |   View Repo
                         a.btn.btn-social.linkedin(href='https://linkedin.com/in/NarulaKeshav', target='_blank')
                           span.fa.fa-linkedin
-                          |   View Profile
+                          |   LinkedIn
 
         // JAVASCRIPT CDNs
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
