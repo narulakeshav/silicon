@@ -2,11 +2,12 @@ $(document).ready(function() {
 
     // WOW JS & TOOLTIP
     new WOW().init();
-    $(function () {
+
+    // GETTING TOOLTIPS TO WORK
+    $(function() {
         $('[data-toggle="tooltip"]').tooltip()
     })
 
-    /* API KEYS*/
     // SEARCH API KEY & URL
     "use strict";
     var searchAPI = "4634ebb67ff1f2c505246874edd505ed%3A7%3A74061741";
@@ -31,7 +32,7 @@ $(document).ready(function() {
     var loadMessage = d.getElementById("load-message");
     var input = d.getElementById("input");
     var link = "";
-    var imgSource  = "";
+    var imgSource = "";
 
     // GETTING THE BUTTON ELEMENTS
     var hotNews = d.getElementById("hot");
@@ -56,11 +57,10 @@ $(document).ready(function() {
     // DISPLAYING RANDOM LOAD MESSAGE
     loadMessage.innerHTML = randomLoadMessage();
 
-    // HIDING THE INTRO DIV IN 4.6 SECONDS
-    var hideDiv = setTimeout(hideIntro, 3400);
-    function hideIntro() {
+    // HIDING THE INTRO DIV IN 3.4 SECONDS
+    var hideDiv = setTimeout(function() {
         $(".intro").addClass("hideDiv");
-    }
+    }, 3400);
 
     // SHOWS THE TOP AND TRENDING NEWS ON CLICK
     function mainButtonClick(url, id, name) {
@@ -144,8 +144,8 @@ $(document).ready(function() {
     }
 
     // DISPLAYS TOP STORIES
-    liTop.onclick = function () {
-        listItemClicked(topStoriesURL, "#li-stop", "Top Stories");   
+    liTop.onclick = function() {
+        listItemClicked(topStoriesURL, "#li-stop", "Top Stories");
     }
 
     // DISPLAYS TOP TECH NEWS
@@ -184,7 +184,7 @@ $(document).ready(function() {
         var outerDiv = d.createElement("div"); //give this class col-md-3
         var innerDiv = d.createElement("div"); //give this class col-md-12 card
         var postLink = d.createElement("a"); //link to post, get target _blank
-        var image = d.createElement("img");
+        var image = d.createElement("img"); // give id of #img-card
         var title = d.createElement("p"); //give id of #card-title
         var author = d.createElement("p"); //give id of #post-by
         setAttributes(outerDiv, innerDiv, postLink, image, title, author);
@@ -193,11 +193,11 @@ $(document).ready(function() {
 
     // SETS THE APPROPRIATE ATTRIBUTES TO THE HTML ELEMENTS
     function setAttributes(outerDiv, innerDiv, postLink, image, title, author) {
-        
+
         // SETS CLASS NAMES TO DIVS
         outerDiv.className = "col-md-4";
         innerDiv.className = "col-md-12 card wow fadeInUp";
-        innerDiv.setAttribute("data-wow-delay", "0.2s");  
+        innerDiv.setAttribute("data-wow-delay", "0.2s");
 
         // SETS ATTRIBUTES TO LINK
         postLink.setAttribute("href", link);
@@ -233,13 +233,13 @@ $(document).ready(function() {
         mainDivToAppendTo.appendChild(outerDiv);
     }
 
-    // FIRST TIME
+    // FIRST TIME CALL
     var first = true;
     firstTime(popularURL);
 
-    // FIRST TIME
+    // DOESN'T CHANGE THE MAIN DIV TO NULL IF IT'S FIRST TIME
     function firstTime(url) {
-        if(first){
+        if (first) {
             first = false;
             extractData(url);
         }
@@ -247,28 +247,34 @@ $(document).ready(function() {
 
     //MOST POPULAR IS SELECTED AND TOGGLED DEFAULTLY
     function extractData(url) {
-        if(!first) {
+        if (!first) {
+            // CLEARS ALL THE CARD FROM THE HTML DOC
             mainDivToAppendTo.innerHTML = null;
             $.getJSON(url, function(api) {
+                //GETS THE NUMBER OF POSTS VIA THE API
                 numberOfPosts.innerHTML = api["num_results"] + " Results";
                 api.results.forEach(function(data) {
+                    // GETS THE URL OF THE POST, TITLE OF POST, AND AUTHOR NAME (WHICH IS SHORTENED DOWN)
                     link = data.url;
                     cardTitle = data.title.length > 43 ? data.title.substring(0, 43) + ".." : data.title;
-                    postedBy = data.byline == "" ? data.source : (data.byline.length > 46)? data.byline.substring(0,46) + " .." : data.byline;
-                    if(url == popularURL) {
+                    postedBy = (data.byline == "") ? data.source : (data.byline.length > 46) ? data.byline.substring(0, 46) + " .." : data.byline;
+                    // IF SEARCHING FOR MOST POPULAR, CHECK IF MEDIA IF UNDEFINED. IF NOT, GET THE URL
+                    if (url == popularURL) {
                         var source = data.media[0];
-                        if(!source || source == undefined) { imgSource = "img/img-nyt.png"; }
+                        if (!source || source == undefined) { imgSource = "img/img-nyt.png"; } 
                         else {
                             var s = data.media[0]["media-metadata"][0];
-                            if(!s || s == undefined) { imgSource = "img/img-nyt.png"; }
-                            else imgSource = s.url;
+                            if (!s || s == undefined) { imgSource = "img/img-nyt.png"; }
+                            else { imgSource = s.url; }
                         }
                     }
-                    else { 
+                    // OTHERWISE, IF SEARCHING FOR TOP STORIES (IN CATEGORIES), DO THE SAME WITH DIFF FORMAT
+                    else {
                         var src = data.multimedia[1];
-                        if(!src || src == undefined) { imgSource = "img/img-nyt.png"; }
-                        else imgSource = data.multimedia[1].url;
+                        if (!src || src == undefined) { imgSource = "img/img-nyt.png"; } 
+                        else { imgSource = data.multimedia[1].url; }
                     }
+                    // CREATES THE NECESSARY CARD ELEMENTS
                     createCardElements();
                 });
             });
@@ -289,6 +295,7 @@ $(document).ready(function() {
     // MAKES THE REQUEST AND DISPLAYS THE NEWS BASED ON RESULTS
     function searchArticles(term) {
         viewing.innerHTML = term;
+        // REPLACES ALL THE SPACES IN SEARCH CONTENT WITH +
         term = term.replace(/ /g, "+");
         searchURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + term + "&api-key=" + searchAPI;
         var prefix = "http://static01.nyt.com/";
@@ -296,11 +303,13 @@ $(document).ready(function() {
         $.getJSON(searchURL, function(api) {
             var i = 0;
             api.response.docs.forEach(function(data) {
+                // GETS THE LINK OF POST, AND CHECKS FOR THE MEDIA (WHETHER IT'S UNDEFINED OR NOT)
                 link = data.web_url;
                 var src = data.multimedia[2];
-                if(!src || src == undefined) { src = "img/img-nyt.png"; }
-                else imgSource = prefix + data.multimedia[2].url;
+                if (!src || src == undefined) { src = "img/img-nyt.png"; }
+                else { imgSource = prefix + data.multimedia[2].url; }
                 console.log(imgSource);
+                // GETS THE CARD TITLE, THE SECTION IT'S POSTED IN, NUMBER OF POSTS, AND CREATES CARD ELEMENTS
                 cardTitle = (data.headline.main.length > 43) ? data.headline.main.substring(0, 43) + " .." : data.headline.main;
                 postedBy = "In " + data["section_name"];
                 i++;
@@ -312,7 +321,16 @@ $(document).ready(function() {
 
     // DISPLAYS FUNNY/RANDOM MESSAGES IN LOAD
     function randomLoadMessage() {
-        var arr = ["Shovelling coal into the server ..", "At least you're not on hold ..", "I'm testing your patience ..", "A few bits tried to escape, but we caught them ..", "The bits are flowing slowly today ..", "The architects are still drafting ..", "The bits are still breeding ..", "Would you like fries with that? ..", "The server is powered by a lemon and two electrodes ..", "Waiting for satellite moves into position .."];
+        var arr = ["Shovelling coal into the server ..", 
+                "At least you're not on hold ..", 
+                "I'm testing your patience ..", 
+                "A few bits tried to escape, but we caught them ..", 
+                "The bits are flowing slowly today ..", 
+                "The architects are still drafting ..", 
+                "The bits are still breeding ..", 
+                "Would you like fries with that? ..", 
+                "The server is powered by a lemon and two electrodes ..", 
+                "Waiting for satellite moves into position .."];
         return arr[Math.floor(Math.random() * arr.length)];
     }
 });
