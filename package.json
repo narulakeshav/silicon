@@ -1,7 +1,7 @@
 {
     "name": "Silicon",
     "version": "1.0",
-    "description": "NewYorkTimes Web Client that shows you the Most Popular stories for the last 30 days, shows you the top stories on NYT, and top stories in tech, business, politics, world, and sports.",
+    "description": "NewYorkTimes Web Client that shows you the Most Popular and Top News Stories, as well as Top stories from Techonology, Business, Politics, World, Sports, and Travel. You can also search for articles/posts easily with the instant articles search provided by NewYorkTimes.",
     "author": "Keshav Narula <NarulaKeshav13@gmail.com>",
     "contributors":[{
         "name": "Keshav Narula",
@@ -21,6 +21,5 @@
         "JavaScript",
         "NewYorkTimes",
         "Most Popular News Stories"
-    ],
-    "license": "MIT",
+    ]
 }
