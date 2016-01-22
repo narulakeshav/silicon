@@ -1,7 +1,7 @@
 # Silicon
 Silicon uses The New York Times API that shows you the Most Popular/Trending and Top News Stories from the NYT Website, as well as the Top News Stories in Technology, Business, Politics, World, Sports, and Travel.
 <br><br>
-To view Silicon, go to [http://github.com/narulakeshav/silicon](http://github.com/narulakeshav/silicon)
+To view Silicon, go to [http://narulakeshav.com/app/silicon](http://narulakeshav.com/app/silicon)
 <br><br>
 ![Screenshot](https://i.imgur.com/RFj8fS1.png)
 
