@@ -42,6 +42,7 @@ $(document).ready(function() {
     var politicsNews = d.getElementById("politics");
     var worldNews = d.getElementById("world");
     var sportsNews = d.getElementById("sports");
+    var fashionNews = d.getElementById("fashion");
     var travelNews = d.getElementById("travel");
 
     // NAVBAR BUTTON LINKS FOR SMALL DEVICES ONLY
@@ -52,6 +53,7 @@ $(document).ready(function() {
     var liPolitics = d.getElementById("li-politics");
     var liWorld = d.getElementById("li-world");
     var liSports = d.getElementById("li-sports");
+    var liFashion = d.getElementById("li-fashion");
     var liTravel = d.getElementById("li-travel");
 
     // DISPLAYING RANDOM LOAD MESSAGE
@@ -121,9 +123,19 @@ $(document).ready(function() {
         categoryButtonClick("sports", "#sports", "Sports");
     }
 
+    // DISPLAYS TOP FASHION NEWS
+    fashionNews.onclick = function() {
+        categoryButtonClick("fashion", "#fashion", "Fashion");
+    }
+
     // DISPLAYS TOP TRAVEL NEWS
     travelNews.onclick = function() {
         categoryButtonClick("travel", "#travel", "Travel");
+    }
+
+    function listItemMainClicked(url, name) {
+        extractData(url);
+        viewing.innerHTML = name;
     }
 
     // DISPLAYS BUTTON LINKS FOR SMALLER DEVICES
@@ -140,12 +152,12 @@ $(document).ready(function() {
 
     // DISPLAYS MOST POPULAR NEWS
     liPopular.onclick = function() {
-        listItemClicked(popularURL, "#li-popular", "Most Popular");
+        listItemMainClicked(popularURL, "Most Popular");
     }
 
     // DISPLAYS TOP STORIES
     liTop.onclick = function() {
-        listItemClicked(topStoriesURL, "#li-stop", "Top Stories");
+        listItemMainClicked(topStoriesURL, "Top Stories");
     }
 
     // DISPLAYS TOP TECH NEWS
@@ -171,6 +183,11 @@ $(document).ready(function() {
     // DISPLAYS TOP SPORTS NEWS
     liSports.onclick = function() {
         listItemClicked("sports", "#li-sports", "Sports");
+    }
+
+    // DISPLAYS TOP SPORTS NEWS
+    liFashion.onclick = function() {
+        listItemClicked("fashion", "#li-fashion", "Fashion");
     }
 
     // DISPLAYS TOP TRAVEL NEWS
@@ -311,7 +328,6 @@ $(document).ready(function() {
                 var src = data.multimedia[2];
                 if (!src || src == undefined) { src = "img/img-nyt.png"; }
                 else { imgSource = prefix + data.multimedia[2].url; }
-                console.log(imgSource);
                 // GETS THE CARD TITLE, THE SECTION IT'S POSTED IN, NUMBER OF POSTS, AND CREATES CARD ELEMENTS
                 cardTitle = (data.headline.main.length > 43) ? data.headline.main.substring(0, 43) + " .." : data.headline.main;
                 postedBy = "In " + data["section_name"];
