@@ -5,11 +5,10 @@ $(document).ready(function() {
 
     // GETTING TOOLTIPS TO WORK
     $(function() {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
+        $('[data-toggle="tooltip"]').tooltip();
+    });
 
     // SEARCH API KEY & URL
-    "use strict";
     var searchAPI = "4634ebb67ff1f2c505246874edd505ed%3A7%3A74061741";
     var searchURL = "";
 
@@ -22,7 +21,6 @@ $(document).ready(function() {
     var topStoriesURL = "http://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + topStoriesAPI;
 
     // GENERAL CARD COMPONENTS
-    "use strict";
     var d = document;
     var mainDivToAppendTo = d.getElementById("feed");
     var cardTitle = d.getElementById("card-title");
@@ -91,47 +89,47 @@ $(document).ready(function() {
     // DISPLAYS MOST POPULAR NEWS
     hotNews.onclick = function() {
         mainButtonClick(popularURL, "#hot", "Most Popular");
-    }
+    };
 
     // DISPLAYS TOP STORIES FROM NYT
     topNews.onclick = function() {
         mainButtonClick(topStoriesURL, "#top", "Top Stories");
-    }
+    };
 
     // DISPLAYS TOP TECH NEWS
     techNews.onclick = function() {
         categoryButtonClick("technology", "#tech", "Techonology");
-    }
+    };
 
     // DISPLAYS TOP BUSINESS NEWS
     businessNews.onclick = function() {
         categoryButtonClick("business", "#business", "Business");
-    }
+    };
 
     // DISPLAYS TOP POLITICS NEWS
     politicsNews.onclick = function() {
         categoryButtonClick("politics", "#politics", "Politics");
-    }
+    };
 
     // DISPLAYS TOP WORLD NEWS
     worldNews.onclick = function() {
         categoryButtonClick("world", "#world", "World");
-    }
+    };
 
     // DISPLAYS TOP SPORTS NEWS
     sportsNews.onclick = function() {
         categoryButtonClick("sports", "#sports", "Sports");
-    }
+    };
 
     // DISPLAYS TOP FASHION NEWS
     fashionNews.onclick = function() {
         categoryButtonClick("fashion", "#fashion", "Fashion");
-    }
+    };
 
     // DISPLAYS TOP TRAVEL NEWS
     travelNews.onclick = function() {
         categoryButtonClick("travel", "#travel", "Travel");
-    }
+    };
 
     function listItemMainClicked(url, name) {
         extractData(url);
@@ -153,47 +151,47 @@ $(document).ready(function() {
     // DISPLAYS MOST POPULAR NEWS
     liPopular.onclick = function() {
         listItemMainClicked(popularURL, "Most Popular");
-    }
+    };
 
     // DISPLAYS TOP STORIES
     liTop.onclick = function() {
         listItemMainClicked(topStoriesURL, "Top Stories");
-    }
+    };
 
     // DISPLAYS TOP TECH NEWS
     liTech.onclick = function() {
         listItemClicked("technology", "#li-tech", "Techonology");
-    }
+    };
 
     // DISPLAYS TOP BUSINESS NEWS
     liBusiness.onclick = function() {
         listItemClicked("business", "#li-business", "Business");
-    }
+    };
 
     // DISPLAYS TOP POLITICS NEWS
     liPolitics.onclick = function() {
         listItemClicked("politics", "#li-politics", "Politics");
-    }
+    };
 
     // DISPLAYS TOP WORLD NEWS
     liWorld.onclick = function() {
         listItemClicked("world", "#li-world", "World");
-    }
+    };
 
     // DISPLAYS TOP SPORTS NEWS
     liSports.onclick = function() {
         listItemClicked("sports", "#li-sports", "Sports");
-    }
+    };
 
     // DISPLAYS TOP SPORTS NEWS
     liFashion.onclick = function() {
         listItemClicked("fashion", "#li-fashion", "Fashion");
-    }
+    };
 
     // DISPLAYS TOP TRAVEL NEWS
     liTravel.onclick = function() {
         listItemClicked("travel", "#li-travel", "Travel");
-    }
+    };
 
     // CREATES BASIC CARD STUCTURE TO SHOW THE NEWS
     function createCardElements() {
@@ -269,30 +267,30 @@ $(document).ready(function() {
             mainDivToAppendTo.innerHTML = null;
             $.getJSON(url, function(api) {
                 //GETS THE NUMBER OF POSTS VIA THE API
-                numberOfPosts.innerHTML = api["num_results"] + " Results";
+                numberOfPosts.innerHTML = api.num_results + " Results";
                 var popResults = 0;
                 api.results.forEach(function(data) {
-                    // GETS THE URL OF THE POST, TITLE OF POST, AND AUTHOR NAME (WHICH IS SHORTENED DOWN)
-                    link = data.url;
-                    cardTitle = data.title.length > 43 ? data.title.substring(0, 43) + ".." : data.title;
-                    postedBy = (data.byline == "") ? data.source : (data.byline.length > 46) ? data.byline.substring(0, 46) + " .." : data.byline;
-                    popResults++;
                     // IF SEARCHING FOR MOST POPULAR, CHECK IF MEDIA IF UNDEFINED. IF NOT, GET THE URL
                     if (url == popularURL) {
                         var source = data.media[0];
-                        if (!source || source == undefined) { imgSource = "img/img-nyt.png"; } 
+                        if (!source || source === undefined) { imgSource = "silicon_files/img-nyt.png"; } 
                         else {
                             var s = data.media[0]["media-metadata"][0];
-                            if (!s || s == undefined) { imgSource = "img/img-nyt.png"; }
+                            if (!s || s === undefined) { imgSource = "silicon_files/img-nyt.png"; }
                             else { imgSource = s.url; }
                         }
                     }
                     // OTHERWISE, IF SEARCHING FOR TOP STORIES (IN CATEGORIES), DO THE SAME WITH DIFF FORMAT
                     else {
                         var src = data.multimedia[1];
-                        if (!src || src == undefined) { imgSource = "img/img-nyt.png"; } 
+                        if (!src || src === undefined) { imgSource = "silicon_files/img-nyt.png"; } 
                         else { imgSource = data.multimedia[1].url; }
                     }
+                    // GETS THE URL OF THE POST, TITLE OF POST, AND AUTHOR NAME (WHICH IS SHORTENED DOWN)
+                    link = data.url;
+                    cardTitle = data.title.length > 43 ? data.title.substring(0, 43) + ".." : data.title;
+                    postedBy = (data.byline === "") ? data.source : (data.byline.length > 46) ? data.byline.substring(0, 46) + " .." : data.byline;
+                    popResults++;
                     if(url == popularURL) { numberOfPosts.innerHTML = popResults + " Results"; }
                     // CREATES THE NECESSARY CARD ELEMENTS
                     createCardElements();
@@ -324,13 +322,13 @@ $(document).ready(function() {
             var i = 0;
             api.response.docs.forEach(function(data) {
                 // GETS THE LINK OF POST, AND CHECKS FOR THE MEDIA (WHETHER IT'S UNDEFINED OR NOT)
-                link = data.web_url;
                 var src = data.multimedia[2];
-                if (!src || src == undefined) { src = "img/img-nyt.png"; }
+                if (!src || src === undefined) { src = "silicon_files/img-nyt.png"; }
                 else { imgSource = prefix + data.multimedia[2].url; }
+                link = data.web_url;
                 // GETS THE CARD TITLE, THE SECTION IT'S POSTED IN, NUMBER OF POSTS, AND CREATES CARD ELEMENTS
                 cardTitle = (data.headline.main.length > 43) ? data.headline.main.substring(0, 43) + " .." : data.headline.main;
-                postedBy = "In " + data["section_name"];
+                postedBy = "In " + data.section_name;
                 i++;
                 createCardElements();
             });
